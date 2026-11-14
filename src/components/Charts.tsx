@@ -2,7 +2,7 @@ import { addDays, diffDays, fmtShort, parseDay, weekdayShort } from '../lib/date
 import type { DayRow } from '../lib/db';
 import { dayMinutes } from '../lib/stats';
 
-const INK = '#18233b', MUTED = '#7b8597', GRID = '#e4e8ec', SEA = '#0e6f73', MADDER = '#a3302a';
+const INK = 'rgba(242,245,250,0.78)', MUTED = 'rgba(232,238,247,0.55)', GRID = 'rgba(255,255,255,0.09)', SEA = '#2fbfb1', MADDER = '#e0685e';
 
 /** Cumulative study hours against the plan line, from the start date to today. */
 export function HoursVsPlan({ days, start, today, planPerDay }: { days: DayRow[]; start: string; today: string; planPerDay: number }) {
@@ -65,7 +65,7 @@ export function Heatmap({ byDate, today, planMinutes, start }: { byDate: Map<str
       if (k > today) continue;
       const m = dayMinutes(byDate.get(k));
       const share = m / planMinutes;
-      const fill = k < start ? '#f3f5f7' : m < 1 ? GRID : SEA;
+      const fill = k < start ? 'rgba(255,255,255,0.03)' : m < 1 ? 'rgba(255,255,255,0.08)' : SEA;
       const op = m < 1 ? 1 : share >= 1 ? 1 : share >= 0.5 ? 0.65 : 0.35;
       cells.push(
         <rect key={k} x={L + w * (cell + gapPx)} y={T + d * (cell + gapPx)} width={cell} height={cell} rx="2" fill={fill} fill-opacity={op}>

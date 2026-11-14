@@ -16,13 +16,13 @@ export function Sadu({ progress, height = 30, width = 1000, dark = false, title 
   const id = `sadu${uid++}`;
   const p = Math.max(0, Math.min(1, progress));
   const unit = height * 1.2;
-  const wovenW = width * p;
+  const wovenW = p > 0 ? Math.max(width * p, unit) : 0; // always show at least one woven motif once started
   return (
     <svg class="sadu" viewBox={`0 0 ${width} ${height}`} role="img" aria-label={title ?? `${Math.round(p * 100)}% woven`} preserveAspectRatio="none">
       <defs>
         <Motif id={id} unit={unit} h={height} />
         <pattern id={`${id}w`} width="5" height={height} patternUnits="userSpaceOnUse">
-          <line x1="2.5" x2="2.5" y1="0" y2={height} stroke={dark ? 'rgba(255,255,255,0.22)' : '#c7ced7'} stroke-width="1" />
+          <line x1="2.5" x2="2.5" y1="0" y2={height} stroke={dark ? 'rgba(255,255,255,0.22)' : 'rgba(255,255,255,0.2)'} stroke-width="1" />
         </pattern>
       </defs>
       <rect x={wovenW} y="0" width={width - wovenW} height={height} fill={`url(#${id}w)`} />
@@ -68,7 +68,7 @@ export function SessionBand({ segments, current }: { segments: Segment[]; curren
         {parts.map(p => (
           <svg key={p.key} x={p.x} y="0" width={p.w} height={H} viewBox={`0 0 ${p.w} ${H}`} preserveAspectRatio="none">
             <SaduInner w={p.w} h={H} progress={Math.min(1, p.done / Math.max(0.01, p.target))} />
-            {current === p.key && <rect x="0.75" y="0.75" width={p.w - 1.5} height={H - 1.5} fill="none" stroke="#18233b" stroke-width="1.5" />}
+            {current === p.key && <rect x="0.75" y="0.75" width={p.w - 1.5} height={H - 1.5} fill="none" stroke="#e8b04a" stroke-width="2" />}
           </svg>
         ))}
       </svg>
@@ -93,7 +93,7 @@ function SaduInner({ w, h, progress }: { w: number; h: number; progress: number 
       <defs>
         <Motif id={id} unit={unit} h={h} />
         <pattern id={`${id}w`} width="5" height={h} patternUnits="userSpaceOnUse">
-          <line x1="2.5" x2="2.5" y1="0" y2={h} stroke="#c7ced7" stroke-width="1" />
+          <line x1="2.5" x2="2.5" y1="0" y2={h} stroke="rgba(255,255,255,0.2)" stroke-width="1" />
         </pattern>
       </defs>
       <rect x={ww} width={w - ww} height={h} fill={`url(#${id}w)`} />

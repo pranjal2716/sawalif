@@ -13,6 +13,7 @@ import { dueNow } from './lib/srs';
 import { splitFor } from './lib/engine';
 import { fmtMonthYear } from './lib/dates';
 import { backupNow } from './lib/backup';
+import { Sadu } from './components/Sadu';
 
 const ROUTES = [
   ['today', 'Today'],
@@ -62,6 +63,7 @@ export function App() {
         <div class="brand">
           <div class="brand-name">Sawalif</div>
           <div class="brand-sub">Gulf Arabic, by ear</div>
+          <div class="brand-band"><Sadu progress={1} height={10} width={190} title="Sawalif" /></div>
         </div>
         <nav aria-label="Main">
           {ROUTES.map(([k, label]) => (
