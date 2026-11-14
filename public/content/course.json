@@ -1,338 +1,5084 @@
 {
-  "version": 1,
-  "dialect": "Gulf / Emirati",
-  "spelling": [
-    ["3", "ع", "a squeeze deep in the throat", "3afwan"],
-    ["7", "ح", "a breathy, whispered h", "mar7aba"],
-    ["kh", "خ", "like Scottish 'loch'", "khalaas"],
-    ["gh", "غ", "a soft gargled r", "ghaali"],
-    ["g", "ق", "Gulf speakers say q as a hard g", "gahwa"],
-    ["ch", "ك / چ", "some Emirati words turn k into ch", "chaay"],
-    ["'", "ء", "a tiny catch in the throat", "masaa'"],
-    ["aa ee oo", "", "long vowels: hold them a little longer", "zain, mashkoor"]
+ "version": 2,
+ "dialect": "Gulf / Emirati",
+ "spelling": [
+  [
+   "3",
+   "ع",
+   "a squeeze deep in the throat",
+   "3afwan"
   ],
-  "modules": [
-    {
-      "id": "m1",
-      "title": "Greetings and courtesy",
-      "blurb": "Say hello, ask how someone is, thank people and get by when you don't understand.",
-      "items": [
-        {"id": "m1-01", "en": "Peace be upon you (hello)", "tr": "as-salaamu 3alaikum", "ar": "السلام عليكم"},
-        {"id": "m1-02", "en": "And upon you peace (reply)", "tr": "wa 3alaikum as-salaam", "ar": "وعليكم السلام"},
-        {"id": "m1-03", "en": "Hello", "tr": "mar7aba", "ar": "مرحبا"},
-        {"id": "m1-04", "en": "Hi (casual)", "tr": "hala", "ar": "هلا"},
-        {"id": "m1-05", "en": "Hi there! (warm reply)", "tr": "hala wallah", "ar": "هلا والله"},
-        {"id": "m1-06", "en": "Welcome (to a man)", "tr": "7ayyaak allah", "ar": "حياك الله", "note": "Very Emirati. To a woman: 7ayyaach allah."},
-        {"id": "m1-07", "en": "God greet you too (reply to welcome)", "tr": "allah y7ayyeek", "ar": "الله يحييك"},
-        {"id": "m1-08", "en": "Welcome", "tr": "ahlan wa sahlan", "ar": "أهلا وسهلا"},
-        {"id": "m1-09", "en": "Good morning", "tr": "sabaa7 al-khair", "ar": "صباح الخير"},
-        {"id": "m1-10", "en": "Good morning (reply)", "tr": "sabaa7 an-noor", "ar": "صباح النور"},
-        {"id": "m1-11", "en": "Good evening", "tr": "masaa' al-khair", "ar": "مساء الخير"},
-        {"id": "m1-12", "en": "Good evening (reply)", "tr": "masaa' an-noor", "ar": "مساء النور"},
-        {"id": "m1-13", "en": "How are you? (to a man)", "tr": "shlonak?", "ar": "شلونك؟"},
-        {"id": "m1-14", "en": "How are you? (to a woman)", "tr": "shlonich?", "ar": "شلونچ؟"},
-        {"id": "m1-15", "en": "What's your news? (how are things)", "tr": "shakhbaarak?", "ar": "شخبارك؟"},
-        {"id": "m1-16", "en": "How are you? (general)", "tr": "kaif 7aalak?", "ar": "كيف حالك؟"},
-        {"id": "m1-17", "en": "I'm fine, thank God", "tr": "ana bkhair, al7amdillah", "ar": "أنا بخير، الحمد لله"},
-        {"id": "m1-18", "en": "Good, thank God", "tr": "zain, al7amdillah", "ar": "زين، الحمد لله"},
-        {"id": "m1-19", "en": "And you? (to a man)", "tr": "w inta?", "ar": "وإنت؟"},
-        {"id": "m1-20", "en": "And you? (to a woman)", "tr": "w inti?", "ar": "وإنتي؟"},
-        {"id": "m1-21", "en": "What's up?", "tr": "shu fi?", "ar": "شو في؟"},
-        {"id": "m1-22", "en": "Nothing much", "tr": "ma fi shay", "ar": "ما في شي"},
-        {"id": "m1-23", "en": "Thank you", "tr": "shukran", "ar": "شكرا"},
-        {"id": "m1-24", "en": "Thanks (to a man)", "tr": "mashkoor", "ar": "مشكور"},
-        {"id": "m1-25", "en": "You're welcome", "tr": "3afwan", "ar": "عفوا"},
-        {"id": "m1-26", "en": "My pleasure (lit. on my head)", "tr": "3ala raasi", "ar": "على راسي"},
-        {"id": "m1-27", "en": "Excuse me / please (to a man)", "tr": "law sama7t", "ar": "لو سمحت"},
-        {"id": "m1-28", "en": "Please, go ahead / here you are (to a man)", "tr": "tfaddal", "ar": "تفضل"},
-        {"id": "m1-29", "en": "Goodbye", "tr": "ma3a as-salaama", "ar": "مع السلامة"},
-        {"id": "m1-30", "en": "Goodbye (go in God's protection)", "tr": "fi amaan illah", "ar": "في أمان الله"},
-        {"id": "m1-31", "en": "God willing", "tr": "inshallah", "ar": "إن شاء الله"},
-        {"id": "m1-32", "en": "Wonderful (praise)", "tr": "mashallah", "ar": "ما شاء الله"},
-        {"id": "m1-33", "en": "Come on / let's go", "tr": "yallah", "ar": "يلا"},
-        {"id": "m1-34", "en": "That's it / done / enough", "tr": "khalaas", "ar": "خلاص"},
-        {"id": "m1-35", "en": "Sorry / never mind", "tr": "ma3laish", "ar": "معليش"},
-        {"id": "m1-36", "en": "No problem / it's fine", "tr": "ma yikhaalif", "ar": "ما يخالف", "note": "A classic Gulf phrase."},
-        {"id": "m1-37", "en": "Yes (casual)", "tr": "ee", "ar": "إي"},
-        {"id": "m1-38", "en": "Yes (polite)", "tr": "na3am", "ar": "نعم"},
-        {"id": "m1-39", "en": "No", "tr": "la", "ar": "لا"},
-        {"id": "m1-40", "en": "God give you strength (to someone working)", "tr": "ya3teek al-3aafya", "ar": "يعطيك العافية"},
-        {"id": "m1-41", "en": "God give you health (reply)", "tr": "allah y3aafeek", "ar": "الله يعافيك"},
-        {"id": "m1-42", "en": "I didn't understand", "tr": "ma fhamt", "ar": "ما فهمت"},
-        {"id": "m1-43", "en": "Say it again, please", "tr": "3eed law sama7t", "ar": "عيد لو سمحت"},
-        {"id": "m1-44", "en": "Slowly, please", "tr": "shway shway law sama7t", "ar": "شوي شوي لو سمحت"},
-        {"id": "m1-45", "en": "Do you speak English? (to a man)", "tr": "titkallam ingleezi?", "ar": "تتكلم إنجليزي؟"},
-        {"id": "m1-46", "en": "I'm learning Arabic", "tr": "ana at3allam 3arabi", "ar": "أنا أتعلم عربي"}
-      ]
-    },
-    {
-      "id": "m2",
-      "title": "Numbers, money and time",
-      "blurb": "Count, ask prices, talk about times and days.",
-      "items": [
-        {"id": "m2-01", "en": "zero", "tr": "sifr", "ar": "صفر"},
-        {"id": "m2-02", "en": "one", "tr": "waa7id", "ar": "واحد"},
-        {"id": "m2-03", "en": "two", "tr": "ithnain", "ar": "اثنين"},
-        {"id": "m2-04", "en": "three", "tr": "thalaath", "ar": "ثلاث"},
-        {"id": "m2-05", "en": "four", "tr": "arba3", "ar": "أربع"},
-        {"id": "m2-06", "en": "five", "tr": "khams", "ar": "خمس"},
-        {"id": "m2-07", "en": "six", "tr": "sitt", "ar": "ست"},
-        {"id": "m2-08", "en": "seven", "tr": "sab3", "ar": "سبع"},
-        {"id": "m2-09", "en": "eight", "tr": "thamaan", "ar": "ثمان"},
-        {"id": "m2-10", "en": "nine", "tr": "tis3", "ar": "تسع"},
-        {"id": "m2-11", "en": "ten", "tr": "3ashar", "ar": "عشر"},
-        {"id": "m2-12", "en": "eleven", "tr": "i7da3sh", "ar": "إحدعش"},
-        {"id": "m2-13", "en": "twelve", "tr": "ithna3sh", "ar": "اثنعش"},
-        {"id": "m2-14", "en": "fifteen", "tr": "khamsta3sh", "ar": "خمسطعش"},
-        {"id": "m2-15", "en": "twenty", "tr": "3ishreen", "ar": "عشرين"},
-        {"id": "m2-16", "en": "thirty", "tr": "thalaatheen", "ar": "ثلاثين"},
-        {"id": "m2-17", "en": "fifty", "tr": "khamseen", "ar": "خمسين"},
-        {"id": "m2-18", "en": "a hundred", "tr": "imya", "ar": "مية"},
-        {"id": "m2-19", "en": "two hundred", "tr": "imyatain", "ar": "ميتين"},
-        {"id": "m2-20", "en": "a thousand", "tr": "alf", "ar": "ألف"},
-        {"id": "m2-21", "en": "dirham / dirhams", "tr": "dirham / daraahim", "ar": "درهم، دراهم"},
-        {"id": "m2-22", "en": "How much is it?", "tr": "bkam?", "ar": "بكم؟", "note": "Emiratis often say bcham."},
-        {"id": "m2-23", "en": "How much is this?", "tr": "bkam haadha?", "ar": "بكم هذا؟"},
-        {"id": "m2-24", "en": "expensive", "tr": "ghaali", "ar": "غالي"},
-        {"id": "m2-25", "en": "very / a lot", "tr": "wayid", "ar": "وايد"},
-        {"id": "m2-26", "en": "Too expensive!", "tr": "ghaali wayid!", "ar": "غالي وايد!"},
-        {"id": "m2-27", "en": "cheap", "tr": "rkhees", "ar": "رخيص"},
-        {"id": "m2-28", "en": "Is there a discount?", "tr": "fi khasm?", "ar": "في خصم؟"},
-        {"id": "m2-29", "en": "for you (lit. your share)", "tr": "7aggak", "ar": "حقك"},
-        {"id": "m2-30", "en": "What time is it?", "tr": "kam is-saa3a?", "ar": "كم الساعة؟", "note": "Emiratis often say cham is-saa3a."},
-        {"id": "m2-31", "en": "It's ten o'clock", "tr": "is-saa3a 3ashar", "ar": "الساعة عشر"},
-        {"id": "m2-32", "en": "half (past)", "tr": "nuss", "ar": "نص"},
-        {"id": "m2-33", "en": "quarter", "tr": "rub3", "ar": "ربع"},
-        {"id": "m2-34", "en": "now", "tr": "al7een", "ar": "الحين"},
-        {"id": "m2-35", "en": "today", "tr": "il-yoom", "ar": "اليوم"},
-        {"id": "m2-36", "en": "tomorrow", "tr": "baachir", "ar": "باجر"},
-        {"id": "m2-37", "en": "yesterday", "tr": "ams", "ar": "أمس"},
-        {"id": "m2-38", "en": "later", "tr": "ba3dain", "ar": "بعدين"},
-        {"id": "m2-39", "en": "in the morning", "tr": "is-sub7", "ar": "الصبح"},
-        {"id": "m2-40", "en": "in the evening", "tr": "il-masa", "ar": "المسا"},
-        {"id": "m2-41", "en": "One moment", "tr": "la7dha", "ar": "لحظة"},
-        {"id": "m2-42", "en": "five minutes", "tr": "khams dagaayig", "ar": "خمس دقايق"},
-        {"id": "m2-43", "en": "week", "tr": "usboo3", "ar": "أسبوع"},
-        {"id": "m2-44", "en": "Friday", "tr": "il-jum3a", "ar": "الجمعة", "note": "Many Emiratis say il-yum3a."},
-        {"id": "m2-45", "en": "Do you have time? (to a man)", "tr": "3indak wagt?", "ar": "عندك وقت؟"},
-        {"id": "m2-46", "en": "OK, agreed", "tr": "zain, ittafagna", "ar": "زين، اتفقنا"}
-      ]
-    },
-    {
-      "id": "m3",
-      "title": "Me, family and work",
-      "blurb": "Introduce yourself, talk about where you're from, your work and your family.",
-      "items": [
-        {"id": "m3-01", "en": "What's your name? (to a man)", "tr": "shu ismak?", "ar": "شو اسمك؟"},
-        {"id": "m3-02", "en": "What's your name? (to a woman)", "tr": "shu ismich?", "ar": "شو اسمچ؟"},
-        {"id": "m3-03", "en": "My name is Pranjal", "tr": "ismi Pranjal", "ar": "اسمي برانجال"},
-        {"id": "m3-04", "en": "Nice to meet you", "tr": "tsharrafna", "ar": "تشرفنا"},
-        {"id": "m3-05", "en": "Where are you from? (to a man)", "tr": "inta min wain?", "ar": "إنت من وين؟"},
-        {"id": "m3-06", "en": "I'm from India", "tr": "ana min il-hind", "ar": "أنا من الهند"},
-        {"id": "m3-07", "en": "I live in Dubai", "tr": "askun fi dbai", "ar": "أسكن في دبي"},
-        {"id": "m3-08", "en": "but / only", "tr": "bas", "ar": "بس"},
-        {"id": "m3-09", "en": "I work in ...", "tr": "ashtaghil fi ...", "ar": "أشتغل في"},
-        {"id": "m3-10", "en": "I have a company", "tr": "3indi sharika", "ar": "عندي شركة"},
-        {"id": "m3-11", "en": "I'm an engineer", "tr": "ana muhandis", "ar": "أنا مهندس"},
-        {"id": "m3-12", "en": "work", "tr": "shughul", "ar": "شغل"},
-        {"id": "m3-13", "en": "office", "tr": "maktab", "ar": "مكتب"},
-        {"id": "m3-14", "en": "meeting", "tr": "ijtimaa3", "ar": "اجتماع"},
-        {"id": "m3-15", "en": "client", "tr": "3ameel", "ar": "عميل"},
-        {"id": "m3-16", "en": "colleague", "tr": "zameel", "ar": "زميل"},
-        {"id": "m3-17", "en": "friend", "tr": "rifeej", "ar": "رفيج", "note": "Gulf word; elsewhere sadeeg."},
-        {"id": "m3-18", "en": "I have a meeting now", "tr": "3indi ijtimaa3 al7een", "ar": "عندي اجتماع الحين"},
-        {"id": "m3-19", "en": "We have a meeting", "tr": "3indana ijtimaa3", "ar": "عندنا اجتماع"},
-        {"id": "m3-20", "en": "I'm busy", "tr": "ana mashghool", "ar": "أنا مشغول"},
-        {"id": "m3-21", "en": "I'm tired", "tr": "ana ta3baan", "ar": "أنا تعبان"},
-        {"id": "m3-22", "en": "I'm happy", "tr": "ana mabsoot", "ar": "أنا مبسوط"},
-        {"id": "m3-23", "en": "I'm hungry", "tr": "ana yoo3aan", "ar": "أنا يوعان", "note": "Emirati turns j into y: jooaan becomes yoo3aan."},
-        {"id": "m3-24", "en": "family", "tr": "ahl", "ar": "أهل"},
-        {"id": "m3-25", "en": "my father", "tr": "abooy", "ar": "أبوي"},
-        {"id": "m3-26", "en": "my mother", "tr": "ummi", "ar": "أمي"},
-        {"id": "m3-27", "en": "my brother", "tr": "akhooy", "ar": "أخوي"},
-        {"id": "m3-28", "en": "my sister", "tr": "ukhti", "ar": "أختي"},
-        {"id": "m3-29", "en": "children", "tr": "3yaal", "ar": "عيال"},
-        {"id": "m3-30", "en": "Are you married? (to a man)", "tr": "inta mitzawwij?", "ar": "إنت متزوج؟"},
-        {"id": "m3-31", "en": "Do you have children? (to a man)", "tr": "3indak 3yaal?", "ar": "عندك عيال؟"},
-        {"id": "m3-32", "en": "man", "tr": "rayyaal", "ar": "ريال", "note": "Emirati for rajjaal."},
-        {"id": "m3-33", "en": "house / home", "tr": "bait", "ar": "بيت"},
-        {"id": "m3-34", "en": "apartment", "tr": "shagga", "ar": "شقة"},
-        {"id": "m3-35", "en": "Who?", "tr": "minu?", "ar": "منو؟"},
-        {"id": "m3-36", "en": "Why?", "tr": "laish?", "ar": "ليش؟"},
-        {"id": "m3-37", "en": "When?", "tr": "mita?", "ar": "متى؟"},
-        {"id": "m3-38", "en": "What?", "tr": "shu?", "ar": "شو؟"},
-        {"id": "m3-39", "en": "I don't know", "tr": "ma adri", "ar": "ما أدري"},
-        {"id": "m3-40", "en": "not (Gulf)", "tr": "mub", "ar": "مب", "note": "mub zain = not good."}
-      ]
-    },
-    {
-      "id": "m4",
-      "title": "Getting around Dubai",
-      "blurb": "Taxis, directions, the café and the shop.",
-      "items": [
-        {"id": "m4-01", "en": "Where?", "tr": "wain?", "ar": "وين؟"},
-        {"id": "m4-02", "en": "Where are you going? (to a man)", "tr": "wain trou7?", "ar": "وين تروح؟"},
-        {"id": "m4-03", "en": "Where's the metro?", "tr": "wain il-metro?", "ar": "وين المترو؟"},
-        {"id": "m4-04", "en": "on the right", "tr": "3ala l-yimeen", "ar": "على اليمين"},
-        {"id": "m4-05", "en": "on the left", "tr": "3ala l-yisaar", "ar": "على اليسار"},
-        {"id": "m4-06", "en": "straight ahead", "tr": "seeda", "ar": "سيدة"},
-        {"id": "m4-07", "en": "Turn right", "tr": "lif yimeen", "ar": "لف يمين"},
-        {"id": "m4-08", "en": "Turn left", "tr": "lif yisaar", "ar": "لف يسار"},
-        {"id": "m4-09", "en": "Stop here", "tr": "waggif hni", "ar": "وقف هني"},
-        {"id": "m4-10", "en": "here", "tr": "hni", "ar": "هني"},
-        {"id": "m4-11", "en": "there", "tr": "hnaak", "ar": "هناك"},
-        {"id": "m4-12", "en": "near", "tr": "gareeb", "ar": "قريب"},
-        {"id": "m4-13", "en": "far", "tr": "ba3eed", "ar": "بعيد"},
-        {"id": "m4-14", "en": "at the traffic light", "tr": "3ind il-ishaara", "ar": "عند الإشارة"},
-        {"id": "m4-15", "en": "roundabout", "tr": "dawwaar", "ar": "دوار"},
-        {"id": "m4-16", "en": "traffic jam", "tr": "za7ma", "ar": "زحمة"},
-        {"id": "m4-17", "en": "Is there traffic?", "tr": "fi za7ma?", "ar": "في زحمة؟"},
-        {"id": "m4-18", "en": "I'm in a hurry", "tr": "ana mista3jil", "ar": "أنا مستعجل"},
-        {"id": "m4-19", "en": "a little", "tr": "shway", "ar": "شوي"},
-        {"id": "m4-20", "en": "car", "tr": "sayyaara", "ar": "سيارة"},
-        {"id": "m4-21", "en": "What would you like? (to a man)", "tr": "shu tabi?", "ar": "شو تبي؟"},
-        {"id": "m4-22", "en": "I want ...", "tr": "abi ...", "ar": "أبي"},
-        {"id": "m4-23", "en": "coffee", "tr": "gahwa", "ar": "قهوة"},
-        {"id": "m4-24", "en": "karak tea", "tr": "chaay karak", "ar": "چاي كرك"},
-        {"id": "m4-25", "en": "water", "tr": "maay", "ar": "ماي"},
-        {"id": "m4-26", "en": "without sugar", "tr": "bdoon sukkar", "ar": "بدون سكر"},
-        {"id": "m4-27", "en": "or", "tr": "walla", "ar": "ولا"},
-        {"id": "m4-28", "en": "also / too", "tr": "ba3ad", "ar": "بعد"},
-        {"id": "m4-29", "en": "Do you have ...? (to a shop)", "tr": "3indkum ...?", "ar": "عندكم؟"},
-        {"id": "m4-30", "en": "The bill, please", "tr": "il-faatoora law sama7t", "ar": "الفاتورة لو سمحت"},
-        {"id": "m4-31", "en": "Give me ...", "tr": "3atni ...", "ar": "عطني"},
-        {"id": "m4-32", "en": "I have cash", "tr": "3indi kaash", "ar": "عندي كاش"},
-        {"id": "m4-33", "en": "There isn't any / there's none", "tr": "ma fi", "ar": "ما في"},
-        {"id": "m4-34", "en": "No problem", "tr": "ma fi mushkila", "ar": "ما في مشكلة"},
-        {"id": "m4-35", "en": "good / OK", "tr": "zain", "ar": "زين"},
-        {"id": "m4-36", "en": "Let's go", "tr": "yallah nimshi", "ar": "يلا نمشي"},
-        {"id": "m4-37", "en": "food", "tr": "akil", "ar": "أكل"},
-        {"id": "m4-38", "en": "chicken", "tr": "diyaay", "ar": "دياي", "note": "Emirati for dijaaj."},
-        {"id": "m4-39", "en": "delicious", "tr": "lazeedh", "ar": "لذيذ"},
-        {"id": "m4-40", "en": "with me / I'm with you", "tr": "wiyyaay", "ar": "وياي"}
-      ]
-    },
-    {"id": "m5", "title": "Food and restaurants", "blurb": "Ordering, preferences, invitations to eat.", "items": []},
-    {"id": "m6", "title": "Shopping", "blurb": "Sizes, colours, bargaining, returns.", "items": []},
-    {"id": "m7", "title": "Phone calls and plans", "blurb": "Calling, arranging, confirming and cancelling.", "items": []},
-    {"id": "m8", "title": "Work and meetings", "blurb": "Projects, deadlines, agreeing and disagreeing.", "items": []},
-    {"id": "m9", "title": "Home and building", "blurb": "Repairs, deliveries, the building guard and neighbours.", "items": []},
-    {"id": "m10", "title": "Health and emergencies", "blurb": "Feeling unwell, the pharmacy, asking for help.", "items": []},
-    {"id": "m11", "title": "Small talk and feelings", "blurb": "Weather, weekends, opinions and reactions.", "items": []},
-    {"id": "m12", "title": "Telling stories", "blurb": "Past events, plans and connecting ideas.", "items": []}
+  [
+   "7",
+   "ح",
+   "a breathy, whispered h",
+   "mar7aba"
   ],
-  "dialogues": [
-    {
-      "id": "d1", "module": "m1", "title": "Morning at the office",
-      "setting": "Your colleague Mariam greets you as you arrive.",
-      "lines": [
-        {"who": "Mariam", "voice": "f", "tr": "as-salaamu 3alaikum, sabaa7 al-khair!", "ar": "السلام عليكم، صباح الخير!", "en": "Peace be upon you, good morning!"},
-        {"who": "You", "voice": "m", "tr": "wa 3alaikum as-salaam, sabaa7 an-noor.", "ar": "وعليكم السلام، صباح النور.", "en": "And upon you peace, good morning."},
-        {"who": "Mariam", "voice": "f", "tr": "shlonak? shakhbaarak?", "ar": "شلونك؟ شخبارك؟", "en": "How are you? How are things?"},
-        {"who": "You", "voice": "m", "tr": "zain, al7amdillah. w inti?", "ar": "زين، الحمد لله. وإنتي؟", "en": "Good, thank God. And you?"},
-        {"who": "Mariam", "voice": "f", "tr": "al7amdillah. yallah, 3indana ijtimaa3 al7een.", "ar": "الحمد لله. يلا، عندنا اجتماع الحين.", "en": "Thank God. Come on, we have a meeting now."},
-        {"who": "You", "voice": "m", "tr": "ee, yallah.", "ar": "إي، يلا.", "en": "Yes, let's go."}
-      ],
-      "questions": [
-        {"q": "What does Mariam ask you?", "options": ["How you are", "Where you live", "What time it is"], "answer": 0},
-        {"q": "What do you both have now?", "options": ["Lunch", "A meeting", "A taxi"], "answer": 1}
-      ]
-    },
-    {
-      "id": "d2", "module": "m3", "title": "Meeting someone new",
-      "setting": "At a business event, Noura introduces herself.",
-      "lines": [
-        {"who": "Noura", "voice": "f", "tr": "hala wallah! shu ismak?", "ar": "هلا والله! شو اسمك؟", "en": "Hi there! What's your name?"},
-        {"who": "You", "voice": "m", "tr": "ismi Pranjal. w inti?", "ar": "اسمي برانجال. وإنتي؟", "en": "My name is Pranjal. And you?"},
-        {"who": "Noura", "voice": "f", "tr": "ana Noura. tsharrafna. inta min wain?", "ar": "أنا نورة. تشرفنا. إنت من وين؟", "en": "I'm Noura. Nice to meet you. Where are you from?"},
-        {"who": "You", "voice": "m", "tr": "ana min il-hind, bas askun fi dbai.", "ar": "أنا من الهند، بس أسكن في دبي.", "en": "I'm from India, but I live in Dubai."},
-        {"who": "Noura", "voice": "f", "tr": "mashallah! titkallam 3arabi?", "ar": "ما شاء الله! تتكلم عربي؟", "en": "Wonderful! Do you speak Arabic?"},
-        {"who": "You", "voice": "m", "tr": "shway shway. ana at3allam.", "ar": "شوي شوي. أنا أتعلم.", "en": "A little. I'm learning."},
-        {"who": "Noura", "voice": "f", "tr": "zain wayid!", "ar": "زين وايد!", "en": "Very good!"}
-      ],
-      "questions": [
-        {"q": "Where are you from, according to the conversation?", "options": ["Dubai", "India", "Iraq"], "answer": 1},
-        {"q": "How much Arabic do you say you speak?", "options": ["A little", "None", "Fluently"], "answer": 0}
-      ]
-    },
-    {
-      "id": "d3", "module": "m4", "title": "Karak at the cafeteria",
-      "setting": "You order at a roadside cafeteria.",
-      "lines": [
-        {"who": "Waiter", "voice": "f", "tr": "hala, shu tabi?", "ar": "هلا، شو تبي؟", "en": "Hi, what would you like?"},
-        {"who": "You", "voice": "m", "tr": "abi chaay karak, law sama7t.", "ar": "أبي چاي كرك، لو سمحت.", "en": "I'd like a karak tea, please."},
-        {"who": "Waiter", "voice": "f", "tr": "bsukkar walla bdoon?", "ar": "بسكر ولا بدون؟", "en": "With sugar or without?"},
-        {"who": "You", "voice": "m", "tr": "bdoon sukkar. w maay ba3ad.", "ar": "بدون سكر. وماي بعد.", "en": "Without sugar. And water too."},
-        {"who": "Waiter", "voice": "f", "tr": "tfaddal.", "ar": "تفضل.", "en": "Here you are."},
-        {"who": "You", "voice": "m", "tr": "bkam?", "ar": "بكم؟", "en": "How much?"},
-        {"who": "Waiter", "voice": "f", "tr": "khams daraahim.", "ar": "خمس دراهم.", "en": "Five dirhams."},
-        {"who": "You", "voice": "m", "tr": "mashkoor.", "ar": "مشكور.", "en": "Thanks."}
-      ],
-      "questions": [
-        {"q": "How do you want your tea?", "options": ["With milk", "With sugar", "Without sugar"], "answer": 2},
-        {"q": "What else do you order?", "options": ["Water", "Coffee", "Food"], "answer": 0},
-        {"q": "How much does it cost?", "options": ["Fifteen dirhams", "Five dirhams", "Fifty dirhams"], "answer": 1}
-      ]
-    },
-    {
-      "id": "d4", "module": "m2", "title": "Asking the price",
-      "setting": "You like a bag at a shop in the souk.",
-      "lines": [
-        {"who": "You", "voice": "m", "tr": "law sama7t, bkam haadha?", "ar": "لو سمحت، بكم هذا؟", "en": "Excuse me, how much is this?"},
-        {"who": "Seller", "voice": "f", "tr": "haadha b imyatain dirham.", "ar": "هذا بميتين درهم.", "en": "This is two hundred dirhams."},
-        {"who": "You", "voice": "m", "tr": "ghaali wayid! fi khasm?", "ar": "غالي وايد! في خصم؟", "en": "Too expensive! Is there a discount?"},
-        {"who": "Seller", "voice": "f", "tr": "7aggak b imya w khamseen.", "ar": "حقك بمية وخمسين.", "en": "For you, a hundred and fifty."},
-        {"who": "You", "voice": "m", "tr": "zain, khalaas.", "ar": "زين، خلاص.", "en": "OK, done."}
-      ],
-      "questions": [
-        {"q": "What is the first price?", "options": ["150 dirhams", "200 dirhams", "100 dirhams"], "answer": 1},
-        {"q": "What price do you agree on?", "options": ["150 dirhams", "200 dirhams", "50 dirhams"], "answer": 0}
-      ]
-    },
-    {
-      "id": "d5", "module": "m4", "title": "Taxi to the Marina",
-      "setting": "You get into a taxi on Sheikh Zayed Road.",
-      "lines": [
-        {"who": "Driver", "voice": "f", "tr": "as-salaamu 3alaikum. wain trou7?", "ar": "السلام عليكم. وين تروح؟", "en": "Peace be upon you. Where are you going?"},
-        {"who": "You", "voice": "m", "tr": "wa 3alaikum as-salaam. dbai marina, law sama7t.", "ar": "وعليكم السلام. دبي مارينا، لو سمحت.", "en": "And upon you peace. Dubai Marina, please."},
-        {"who": "You", "voice": "m", "tr": "ana mista3jil shway. fi za7ma?", "ar": "أنا مستعجل شوي. في زحمة؟", "en": "I'm in a bit of a hurry. Is there traffic?"},
-        {"who": "Driver", "voice": "f", "tr": "la, ma fi za7ma al7een.", "ar": "لا، ما في زحمة الحين.", "en": "No, there's no traffic now."},
-        {"who": "You", "voice": "m", "tr": "3ind il-ishaara, lif yimeen.", "ar": "عند الإشارة، لف يمين.", "en": "At the traffic light, turn right."},
-        {"who": "You", "voice": "m", "tr": "waggif hni, law sama7t.", "ar": "وقف هني، لو سمحت.", "en": "Stop here, please."},
-        {"who": "Driver", "voice": "f", "tr": "tfaddal.", "ar": "تفضل.", "en": "There you go."}
-      ],
-      "questions": [
-        {"q": "Where are you going?", "options": ["The airport", "Deira", "Dubai Marina"], "answer": 2},
-        {"q": "Is there traffic?", "options": ["Yes, a lot", "No", "A little"], "answer": 1},
-        {"q": "Where should the driver turn right?", "options": ["At the traffic light", "At the roundabout", "At the metro"], "answer": 0}
-      ]
-    },
-    {
-      "id": "d6", "module": "m2", "title": "Setting a meeting",
-      "setting": "A colleague wants to meet tomorrow.",
-      "lines": [
-        {"who": "Colleague", "voice": "f", "tr": "3indak wagt baachir?", "ar": "عندك وقت باجر؟", "en": "Do you have time tomorrow?"},
-        {"who": "You", "voice": "m", "tr": "ee, is-sub7.", "ar": "إي، الصبح.", "en": "Yes, in the morning."},
-        {"who": "Colleague", "voice": "f", "tr": "is-saa3a 3ashar zain?", "ar": "الساعة عشر زين؟", "en": "Is ten o'clock good?"},
-        {"who": "You", "voice": "m", "tr": "la, 3indi ijtimaa3 is-saa3a 3ashar. is-saa3a i7da3sh?", "ar": "لا، عندي اجتماع الساعة عشر. الساعة إحدعش؟", "en": "No, I have a meeting at ten. Eleven o'clock?"},
-        {"who": "Colleague", "voice": "f", "tr": "zain, ittafagna. is-saa3a i7da3sh fil maktab.", "ar": "زين، اتفقنا. الساعة إحدعش في المكتب.", "en": "OK, agreed. Eleven o'clock at the office."},
-        {"who": "You", "voice": "m", "tr": "inshallah.", "ar": "إن شاء الله.", "en": "God willing."}
-      ],
-      "questions": [
-        {"q": "When do you agree to meet?", "options": ["Today at ten", "Tomorrow at eleven", "Tomorrow at ten"], "answer": 1},
-        {"q": "Why not ten o'clock?", "options": ["You have a meeting", "You're tired", "There's traffic"], "answer": 0},
-        {"q": "Where will you meet?", "options": ["At a café", "At the office", "At home"], "answer": 1}
-      ]
-    }
+  [
+   "kh",
+   "خ",
+   "like Scottish 'loch'",
+   "khalaas"
   ],
-  "milestones": [
-    {"id": "m1", "name": "Survival", "level": "CEFR A1", "hours": 140, "hoursLow": 100, "hoursHigh": 180, "words": 500, "listen": 40, "speak": 10,
-     "cando": ["Greet people and introduce yourself", "Handle numbers and prices", "Order food and drinks", "Give a taxi driver directions", "Understand slow, clear speech on these topics"]},
-    {"id": "m2", "name": "Basic conversation", "level": "CEFR A2", "hours": 350, "hoursLow": 250, "hoursHigh": 450, "words": 1350, "listen": 120, "speak": 40,
-     "cando": ["Handle routine exchanges at shops, cafés and work", "Ask and answer follow-up questions about family, work and home", "Catch the main point of short, clear messages", "Keep a short social chat going with help"]},
-    {"id": "m3", "name": "Everyday conversation", "level": "CEFR B1", "hours": 700, "hoursLow": 550, "hoursHigh": 850, "words": 2750, "listen": 280, "speak": 100,
-     "cando": ["Join a conversation unprepared on familiar topics", "Follow clear speech at near-normal speed", "Talk about past events and future plans", "Deal with most everyday situations in Arabic"]},
-    {"id": "m4", "name": "Confident", "level": "CEFR B2", "hours": 1100, "hoursLow": 950, "hoursHigh": 1300, "words": 4000, "listen": 450, "speak": 170,
-     "cando": ["Sustain longer conversations, including about work", "Follow group conversations with some gaps"]}
+  [
+   "gh",
+   "غ",
+   "a soft gargled r",
+   "ghaali"
+  ],
+  [
+   "g",
+   "ق",
+   "Gulf speakers say q as a hard g",
+   "gahwa"
+  ],
+  [
+   "ch",
+   "ك / چ",
+   "some Emirati words turn k into ch",
+   "chaay"
+  ],
+  [
+   "'",
+   "ء",
+   "a tiny catch in the throat",
+   "masaa'"
+  ],
+  [
+   "aa ee oo",
+   "",
+   "long vowels: hold them a little longer",
+   "zain, mashkoor"
   ]
+ ],
+ "modules": [
+  {
+   "id": "m1",
+   "title": "Greetings and courtesy",
+   "blurb": "Say hello, ask how someone is, thank people and get by when you don't understand.",
+   "items": [
+    {
+     "id": "m1-01",
+     "en": "Peace be upon you (hello)",
+     "tr": "as-salaamu 3alaikum",
+     "ar": "السلام عليكم"
+    },
+    {
+     "id": "m1-02",
+     "en": "And upon you peace (reply)",
+     "tr": "wa 3alaikum as-salaam",
+     "ar": "وعليكم السلام"
+    },
+    {
+     "id": "m1-03",
+     "en": "Hello",
+     "tr": "mar7aba",
+     "ar": "مرحبا"
+    },
+    {
+     "id": "m1-04",
+     "en": "Hi (casual)",
+     "tr": "hala",
+     "ar": "هلا"
+    },
+    {
+     "id": "m1-05",
+     "en": "Hi there! (warm reply)",
+     "tr": "hala wallah",
+     "ar": "هلا والله"
+    },
+    {
+     "id": "m1-06",
+     "en": "Welcome (to a man)",
+     "tr": "7ayyaak allah",
+     "ar": "حياك الله",
+     "note": "Very Emirati. To a woman: 7ayyaach allah."
+    },
+    {
+     "id": "m1-07",
+     "en": "God greet you too (reply to welcome)",
+     "tr": "allah y7ayyeek",
+     "ar": "الله يحييك"
+    },
+    {
+     "id": "m1-08",
+     "en": "Welcome",
+     "tr": "ahlan wa sahlan",
+     "ar": "أهلا وسهلا"
+    },
+    {
+     "id": "m1-09",
+     "en": "Good morning",
+     "tr": "sabaa7 al-khair",
+     "ar": "صباح الخير"
+    },
+    {
+     "id": "m1-10",
+     "en": "Good morning (reply)",
+     "tr": "sabaa7 an-noor",
+     "ar": "صباح النور"
+    },
+    {
+     "id": "m1-11",
+     "en": "Good evening",
+     "tr": "masaa' al-khair",
+     "ar": "مساء الخير"
+    },
+    {
+     "id": "m1-12",
+     "en": "Good evening (reply)",
+     "tr": "masaa' an-noor",
+     "ar": "مساء النور"
+    },
+    {
+     "id": "m1-13",
+     "en": "How are you? (to a man)",
+     "tr": "shlonak?",
+     "ar": "شلونك؟"
+    },
+    {
+     "id": "m1-14",
+     "en": "How are you? (to a woman)",
+     "tr": "shlonich?",
+     "ar": "شلونچ؟"
+    },
+    {
+     "id": "m1-15",
+     "en": "What's your news? (how are things)",
+     "tr": "shakhbaarak?",
+     "ar": "شخبارك؟"
+    },
+    {
+     "id": "m1-16",
+     "en": "How are you? (general)",
+     "tr": "kaif 7aalak?",
+     "ar": "كيف حالك؟"
+    },
+    {
+     "id": "m1-17",
+     "en": "I'm fine, thank God",
+     "tr": "ana bkhair, al7amdillah",
+     "ar": "أنا بخير، الحمد لله"
+    },
+    {
+     "id": "m1-18",
+     "en": "Good, thank God",
+     "tr": "zain, al7amdillah",
+     "ar": "زين، الحمد لله"
+    },
+    {
+     "id": "m1-19",
+     "en": "And you? (to a man)",
+     "tr": "w inta?",
+     "ar": "وإنت؟"
+    },
+    {
+     "id": "m1-20",
+     "en": "And you? (to a woman)",
+     "tr": "w inti?",
+     "ar": "وإنتي؟"
+    },
+    {
+     "id": "m1-21",
+     "en": "What's up?",
+     "tr": "shu fi?",
+     "ar": "شو في؟"
+    },
+    {
+     "id": "m1-22",
+     "en": "Nothing much",
+     "tr": "ma fi shay",
+     "ar": "ما في شي"
+    },
+    {
+     "id": "m1-23",
+     "en": "Thank you",
+     "tr": "shukran",
+     "ar": "شكرا"
+    },
+    {
+     "id": "m1-24",
+     "en": "Thanks (to a man)",
+     "tr": "mashkoor",
+     "ar": "مشكور"
+    },
+    {
+     "id": "m1-25",
+     "en": "You're welcome",
+     "tr": "3afwan",
+     "ar": "عفوا"
+    },
+    {
+     "id": "m1-26",
+     "en": "My pleasure (lit. on my head)",
+     "tr": "3ala raasi",
+     "ar": "على راسي"
+    },
+    {
+     "id": "m1-27",
+     "en": "Excuse me / please (to a man)",
+     "tr": "law sama7t",
+     "ar": "لو سمحت"
+    },
+    {
+     "id": "m1-28",
+     "en": "Please, go ahead / here you are (to a man)",
+     "tr": "tfaddal",
+     "ar": "تفضل"
+    },
+    {
+     "id": "m1-29",
+     "en": "Goodbye",
+     "tr": "ma3a as-salaama",
+     "ar": "مع السلامة"
+    },
+    {
+     "id": "m1-30",
+     "en": "Goodbye (go in God's protection)",
+     "tr": "fi amaan illah",
+     "ar": "في أمان الله"
+    },
+    {
+     "id": "m1-31",
+     "en": "God willing",
+     "tr": "inshallah",
+     "ar": "إن شاء الله"
+    },
+    {
+     "id": "m1-32",
+     "en": "Wonderful (praise)",
+     "tr": "mashallah",
+     "ar": "ما شاء الله"
+    },
+    {
+     "id": "m1-33",
+     "en": "Come on / let's go",
+     "tr": "yallah",
+     "ar": "يلا"
+    },
+    {
+     "id": "m1-34",
+     "en": "That's it / done / enough",
+     "tr": "khalaas",
+     "ar": "خلاص"
+    },
+    {
+     "id": "m1-35",
+     "en": "Sorry / never mind",
+     "tr": "ma3laish",
+     "ar": "معليش"
+    },
+    {
+     "id": "m1-36",
+     "en": "No problem / it's fine",
+     "tr": "ma yikhaalif",
+     "ar": "ما يخالف",
+     "note": "A classic Gulf phrase."
+    },
+    {
+     "id": "m1-37",
+     "en": "Yes (casual)",
+     "tr": "ee",
+     "ar": "إي"
+    },
+    {
+     "id": "m1-38",
+     "en": "Yes (polite)",
+     "tr": "na3am",
+     "ar": "نعم"
+    },
+    {
+     "id": "m1-39",
+     "en": "No",
+     "tr": "la",
+     "ar": "لا"
+    },
+    {
+     "id": "m1-40",
+     "en": "God give you strength (to someone working)",
+     "tr": "ya3teek al-3aafya",
+     "ar": "يعطيك العافية"
+    },
+    {
+     "id": "m1-41",
+     "en": "God give you health (reply)",
+     "tr": "allah y3aafeek",
+     "ar": "الله يعافيك"
+    },
+    {
+     "id": "m1-42",
+     "en": "I didn't understand",
+     "tr": "ma fhamt",
+     "ar": "ما فهمت"
+    },
+    {
+     "id": "m1-43",
+     "en": "Say it again, please",
+     "tr": "3eed law sama7t",
+     "ar": "عيد لو سمحت"
+    },
+    {
+     "id": "m1-44",
+     "en": "Slowly, please",
+     "tr": "shway shway law sama7t",
+     "ar": "شوي شوي لو سمحت"
+    },
+    {
+     "id": "m1-45",
+     "en": "Do you speak English? (to a man)",
+     "tr": "titkallam ingleezi?",
+     "ar": "تتكلم إنجليزي؟"
+    },
+    {
+     "id": "m1-46",
+     "en": "I'm learning Arabic",
+     "tr": "ana at3allam 3arabi",
+     "ar": "أنا أتعلم عربي"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "Numbers, money and time",
+   "blurb": "Count, ask prices, talk about times and days.",
+   "items": [
+    {
+     "id": "m2-01",
+     "en": "zero",
+     "tr": "sifr",
+     "ar": "صفر"
+    },
+    {
+     "id": "m2-02",
+     "en": "one",
+     "tr": "waa7id",
+     "ar": "واحد"
+    },
+    {
+     "id": "m2-03",
+     "en": "two",
+     "tr": "ithnain",
+     "ar": "اثنين"
+    },
+    {
+     "id": "m2-04",
+     "en": "three",
+     "tr": "thalaath",
+     "ar": "ثلاث"
+    },
+    {
+     "id": "m2-05",
+     "en": "four",
+     "tr": "arba3",
+     "ar": "أربع"
+    },
+    {
+     "id": "m2-06",
+     "en": "five",
+     "tr": "khams",
+     "ar": "خمس"
+    },
+    {
+     "id": "m2-07",
+     "en": "six",
+     "tr": "sitt",
+     "ar": "ست"
+    },
+    {
+     "id": "m2-08",
+     "en": "seven",
+     "tr": "sab3",
+     "ar": "سبع"
+    },
+    {
+     "id": "m2-09",
+     "en": "eight",
+     "tr": "thamaan",
+     "ar": "ثمان"
+    },
+    {
+     "id": "m2-10",
+     "en": "nine",
+     "tr": "tis3",
+     "ar": "تسع"
+    },
+    {
+     "id": "m2-11",
+     "en": "ten",
+     "tr": "3ashar",
+     "ar": "عشر"
+    },
+    {
+     "id": "m2-12",
+     "en": "eleven",
+     "tr": "i7da3sh",
+     "ar": "إحدعش"
+    },
+    {
+     "id": "m2-13",
+     "en": "twelve",
+     "tr": "ithna3sh",
+     "ar": "اثنعش"
+    },
+    {
+     "id": "m2-14",
+     "en": "fifteen",
+     "tr": "khamsta3sh",
+     "ar": "خمسطعش"
+    },
+    {
+     "id": "m2-15",
+     "en": "twenty",
+     "tr": "3ishreen",
+     "ar": "عشرين"
+    },
+    {
+     "id": "m2-16",
+     "en": "thirty",
+     "tr": "thalaatheen",
+     "ar": "ثلاثين"
+    },
+    {
+     "id": "m2-17",
+     "en": "fifty",
+     "tr": "khamseen",
+     "ar": "خمسين"
+    },
+    {
+     "id": "m2-18",
+     "en": "a hundred",
+     "tr": "imya",
+     "ar": "مية"
+    },
+    {
+     "id": "m2-19",
+     "en": "two hundred",
+     "tr": "imyatain",
+     "ar": "ميتين"
+    },
+    {
+     "id": "m2-20",
+     "en": "a thousand",
+     "tr": "alf",
+     "ar": "ألف"
+    },
+    {
+     "id": "m2-21",
+     "en": "dirham / dirhams",
+     "tr": "dirham / daraahim",
+     "ar": "درهم، دراهم"
+    },
+    {
+     "id": "m2-22",
+     "en": "How much is it?",
+     "tr": "bkam?",
+     "ar": "بكم؟",
+     "note": "Emiratis often say bcham."
+    },
+    {
+     "id": "m2-23",
+     "en": "How much is this?",
+     "tr": "bkam haadha?",
+     "ar": "بكم هذا؟"
+    },
+    {
+     "id": "m2-24",
+     "en": "expensive",
+     "tr": "ghaali",
+     "ar": "غالي"
+    },
+    {
+     "id": "m2-25",
+     "en": "very / a lot",
+     "tr": "wayid",
+     "ar": "وايد"
+    },
+    {
+     "id": "m2-26",
+     "en": "Too expensive!",
+     "tr": "ghaali wayid!",
+     "ar": "غالي وايد!"
+    },
+    {
+     "id": "m2-27",
+     "en": "cheap",
+     "tr": "rkhees",
+     "ar": "رخيص"
+    },
+    {
+     "id": "m2-28",
+     "en": "Is there a discount?",
+     "tr": "fi khasm?",
+     "ar": "في خصم؟"
+    },
+    {
+     "id": "m2-29",
+     "en": "for you (lit. your share)",
+     "tr": "7aggak",
+     "ar": "حقك"
+    },
+    {
+     "id": "m2-30",
+     "en": "What time is it?",
+     "tr": "kam is-saa3a?",
+     "ar": "كم الساعة؟",
+     "note": "Emiratis often say cham is-saa3a."
+    },
+    {
+     "id": "m2-31",
+     "en": "It's ten o'clock",
+     "tr": "is-saa3a 3ashar",
+     "ar": "الساعة عشر"
+    },
+    {
+     "id": "m2-32",
+     "en": "half (past)",
+     "tr": "nuss",
+     "ar": "نص"
+    },
+    {
+     "id": "m2-33",
+     "en": "quarter",
+     "tr": "rub3",
+     "ar": "ربع"
+    },
+    {
+     "id": "m2-34",
+     "en": "now",
+     "tr": "al7een",
+     "ar": "الحين"
+    },
+    {
+     "id": "m2-35",
+     "en": "today",
+     "tr": "il-yoom",
+     "ar": "اليوم"
+    },
+    {
+     "id": "m2-36",
+     "en": "tomorrow",
+     "tr": "baachir",
+     "ar": "باجر"
+    },
+    {
+     "id": "m2-37",
+     "en": "yesterday",
+     "tr": "ams",
+     "ar": "أمس"
+    },
+    {
+     "id": "m2-38",
+     "en": "later",
+     "tr": "ba3dain",
+     "ar": "بعدين"
+    },
+    {
+     "id": "m2-39",
+     "en": "in the morning",
+     "tr": "is-sub7",
+     "ar": "الصبح"
+    },
+    {
+     "id": "m2-40",
+     "en": "in the evening",
+     "tr": "il-masa",
+     "ar": "المسا"
+    },
+    {
+     "id": "m2-41",
+     "en": "One moment",
+     "tr": "la7dha",
+     "ar": "لحظة"
+    },
+    {
+     "id": "m2-42",
+     "en": "five minutes",
+     "tr": "khams dagaayig",
+     "ar": "خمس دقايق"
+    },
+    {
+     "id": "m2-43",
+     "en": "week",
+     "tr": "usboo3",
+     "ar": "أسبوع"
+    },
+    {
+     "id": "m2-44",
+     "en": "Friday",
+     "tr": "il-jum3a",
+     "ar": "الجمعة",
+     "note": "Many Emiratis say il-yum3a."
+    },
+    {
+     "id": "m2-45",
+     "en": "Do you have time? (to a man)",
+     "tr": "3indak wagt?",
+     "ar": "عندك وقت؟"
+    },
+    {
+     "id": "m2-46",
+     "en": "OK, agreed",
+     "tr": "zain, ittafagna",
+     "ar": "زين، اتفقنا"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Me, family and work",
+   "blurb": "Introduce yourself, talk about where you're from, your work and your family.",
+   "items": [
+    {
+     "id": "m3-01",
+     "en": "What's your name? (to a man)",
+     "tr": "shu ismak?",
+     "ar": "شو اسمك؟"
+    },
+    {
+     "id": "m3-02",
+     "en": "What's your name? (to a woman)",
+     "tr": "shu ismich?",
+     "ar": "شو اسمچ؟"
+    },
+    {
+     "id": "m3-03",
+     "en": "My name is Pranjal",
+     "tr": "ismi Pranjal",
+     "ar": "اسمي برانجال"
+    },
+    {
+     "id": "m3-04",
+     "en": "Nice to meet you",
+     "tr": "tsharrafna",
+     "ar": "تشرفنا"
+    },
+    {
+     "id": "m3-05",
+     "en": "Where are you from? (to a man)",
+     "tr": "inta min wain?",
+     "ar": "إنت من وين؟"
+    },
+    {
+     "id": "m3-06",
+     "en": "I'm from India",
+     "tr": "ana min il-hind",
+     "ar": "أنا من الهند"
+    },
+    {
+     "id": "m3-07",
+     "en": "I live in Dubai",
+     "tr": "askun fi dbai",
+     "ar": "أسكن في دبي"
+    },
+    {
+     "id": "m3-08",
+     "en": "but / only",
+     "tr": "bas",
+     "ar": "بس"
+    },
+    {
+     "id": "m3-09",
+     "en": "I work in ...",
+     "tr": "ashtaghil fi ...",
+     "ar": "أشتغل في"
+    },
+    {
+     "id": "m3-10",
+     "en": "I have a company",
+     "tr": "3indi sharika",
+     "ar": "عندي شركة"
+    },
+    {
+     "id": "m3-11",
+     "en": "I'm an engineer",
+     "tr": "ana muhandis",
+     "ar": "أنا مهندس"
+    },
+    {
+     "id": "m3-12",
+     "en": "work",
+     "tr": "shughul",
+     "ar": "شغل"
+    },
+    {
+     "id": "m3-13",
+     "en": "office",
+     "tr": "maktab",
+     "ar": "مكتب"
+    },
+    {
+     "id": "m3-14",
+     "en": "meeting",
+     "tr": "ijtimaa3",
+     "ar": "اجتماع"
+    },
+    {
+     "id": "m3-15",
+     "en": "client",
+     "tr": "3ameel",
+     "ar": "عميل"
+    },
+    {
+     "id": "m3-16",
+     "en": "colleague",
+     "tr": "zameel",
+     "ar": "زميل"
+    },
+    {
+     "id": "m3-17",
+     "en": "friend",
+     "tr": "rifeej",
+     "ar": "رفيج",
+     "note": "Gulf word; elsewhere sadeeg."
+    },
+    {
+     "id": "m3-18",
+     "en": "I have a meeting now",
+     "tr": "3indi ijtimaa3 al7een",
+     "ar": "عندي اجتماع الحين"
+    },
+    {
+     "id": "m3-19",
+     "en": "We have a meeting",
+     "tr": "3indana ijtimaa3",
+     "ar": "عندنا اجتماع"
+    },
+    {
+     "id": "m3-20",
+     "en": "I'm busy",
+     "tr": "ana mashghool",
+     "ar": "أنا مشغول"
+    },
+    {
+     "id": "m3-21",
+     "en": "I'm tired",
+     "tr": "ana ta3baan",
+     "ar": "أنا تعبان"
+    },
+    {
+     "id": "m3-22",
+     "en": "I'm happy",
+     "tr": "ana mabsoot",
+     "ar": "أنا مبسوط"
+    },
+    {
+     "id": "m3-23",
+     "en": "I'm hungry",
+     "tr": "ana yoo3aan",
+     "ar": "أنا يوعان",
+     "note": "Emirati turns j into y: jooaan becomes yoo3aan."
+    },
+    {
+     "id": "m3-24",
+     "en": "family",
+     "tr": "ahl",
+     "ar": "أهل"
+    },
+    {
+     "id": "m3-25",
+     "en": "my father",
+     "tr": "abooy",
+     "ar": "أبوي"
+    },
+    {
+     "id": "m3-26",
+     "en": "my mother",
+     "tr": "ummi",
+     "ar": "أمي"
+    },
+    {
+     "id": "m3-27",
+     "en": "my brother",
+     "tr": "akhooy",
+     "ar": "أخوي"
+    },
+    {
+     "id": "m3-28",
+     "en": "my sister",
+     "tr": "ukhti",
+     "ar": "أختي"
+    },
+    {
+     "id": "m3-29",
+     "en": "children",
+     "tr": "3yaal",
+     "ar": "عيال"
+    },
+    {
+     "id": "m3-30",
+     "en": "Are you married? (to a man)",
+     "tr": "inta mitzawwij?",
+     "ar": "إنت متزوج؟"
+    },
+    {
+     "id": "m3-31",
+     "en": "Do you have children? (to a man)",
+     "tr": "3indak 3yaal?",
+     "ar": "عندك عيال؟"
+    },
+    {
+     "id": "m3-32",
+     "en": "man",
+     "tr": "rayyaal",
+     "ar": "ريال",
+     "note": "Emirati for rajjaal."
+    },
+    {
+     "id": "m3-33",
+     "en": "house / home",
+     "tr": "bait",
+     "ar": "بيت"
+    },
+    {
+     "id": "m3-34",
+     "en": "apartment",
+     "tr": "shagga",
+     "ar": "شقة"
+    },
+    {
+     "id": "m3-35",
+     "en": "Who?",
+     "tr": "minu?",
+     "ar": "منو؟"
+    },
+    {
+     "id": "m3-36",
+     "en": "Why?",
+     "tr": "laish?",
+     "ar": "ليش؟"
+    },
+    {
+     "id": "m3-37",
+     "en": "When?",
+     "tr": "mita?",
+     "ar": "متى؟"
+    },
+    {
+     "id": "m3-38",
+     "en": "What?",
+     "tr": "shu?",
+     "ar": "شو؟"
+    },
+    {
+     "id": "m3-39",
+     "en": "I don't know",
+     "tr": "ma adri",
+     "ar": "ما أدري"
+    },
+    {
+     "id": "m3-40",
+     "en": "not (Gulf)",
+     "tr": "mub",
+     "ar": "مب",
+     "note": "mub zain = not good."
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Getting around Dubai",
+   "blurb": "Taxis, directions, the café and the shop.",
+   "items": [
+    {
+     "id": "m4-01",
+     "en": "Where?",
+     "tr": "wain?",
+     "ar": "وين؟"
+    },
+    {
+     "id": "m4-02",
+     "en": "Where are you going? (to a man)",
+     "tr": "wain trou7?",
+     "ar": "وين تروح؟"
+    },
+    {
+     "id": "m4-03",
+     "en": "Where's the metro?",
+     "tr": "wain il-metro?",
+     "ar": "وين المترو؟"
+    },
+    {
+     "id": "m4-04",
+     "en": "on the right",
+     "tr": "3ala l-yimeen",
+     "ar": "على اليمين"
+    },
+    {
+     "id": "m4-05",
+     "en": "on the left",
+     "tr": "3ala l-yisaar",
+     "ar": "على اليسار"
+    },
+    {
+     "id": "m4-06",
+     "en": "straight ahead",
+     "tr": "seeda",
+     "ar": "سيدة"
+    },
+    {
+     "id": "m4-07",
+     "en": "Turn right",
+     "tr": "lif yimeen",
+     "ar": "لف يمين"
+    },
+    {
+     "id": "m4-08",
+     "en": "Turn left",
+     "tr": "lif yisaar",
+     "ar": "لف يسار"
+    },
+    {
+     "id": "m4-09",
+     "en": "Stop here",
+     "tr": "waggif hni",
+     "ar": "وقف هني"
+    },
+    {
+     "id": "m4-10",
+     "en": "here",
+     "tr": "hni",
+     "ar": "هني"
+    },
+    {
+     "id": "m4-11",
+     "en": "there",
+     "tr": "hnaak",
+     "ar": "هناك"
+    },
+    {
+     "id": "m4-12",
+     "en": "near",
+     "tr": "gareeb",
+     "ar": "قريب"
+    },
+    {
+     "id": "m4-13",
+     "en": "far",
+     "tr": "ba3eed",
+     "ar": "بعيد"
+    },
+    {
+     "id": "m4-14",
+     "en": "at the traffic light",
+     "tr": "3ind il-ishaara",
+     "ar": "عند الإشارة"
+    },
+    {
+     "id": "m4-15",
+     "en": "roundabout",
+     "tr": "dawwaar",
+     "ar": "دوار"
+    },
+    {
+     "id": "m4-16",
+     "en": "traffic jam",
+     "tr": "za7ma",
+     "ar": "زحمة"
+    },
+    {
+     "id": "m4-17",
+     "en": "Is there traffic?",
+     "tr": "fi za7ma?",
+     "ar": "في زحمة؟"
+    },
+    {
+     "id": "m4-18",
+     "en": "I'm in a hurry",
+     "tr": "ana mista3jil",
+     "ar": "أنا مستعجل"
+    },
+    {
+     "id": "m4-19",
+     "en": "a little",
+     "tr": "shway",
+     "ar": "شوي"
+    },
+    {
+     "id": "m4-20",
+     "en": "car",
+     "tr": "sayyaara",
+     "ar": "سيارة"
+    },
+    {
+     "id": "m4-21",
+     "en": "What would you like? (to a man)",
+     "tr": "shu tabi?",
+     "ar": "شو تبي؟"
+    },
+    {
+     "id": "m4-22",
+     "en": "I want ...",
+     "tr": "abi ...",
+     "ar": "أبي"
+    },
+    {
+     "id": "m4-23",
+     "en": "coffee",
+     "tr": "gahwa",
+     "ar": "قهوة"
+    },
+    {
+     "id": "m4-24",
+     "en": "karak tea",
+     "tr": "chaay karak",
+     "ar": "چاي كرك"
+    },
+    {
+     "id": "m4-25",
+     "en": "water",
+     "tr": "maay",
+     "ar": "ماي"
+    },
+    {
+     "id": "m4-26",
+     "en": "without sugar",
+     "tr": "bdoon sukkar",
+     "ar": "بدون سكر"
+    },
+    {
+     "id": "m4-27",
+     "en": "or",
+     "tr": "walla",
+     "ar": "ولا"
+    },
+    {
+     "id": "m4-28",
+     "en": "also / too",
+     "tr": "ba3ad",
+     "ar": "بعد"
+    },
+    {
+     "id": "m4-29",
+     "en": "Do you have ...? (to a shop)",
+     "tr": "3indkum ...?",
+     "ar": "عندكم؟"
+    },
+    {
+     "id": "m4-30",
+     "en": "The bill, please",
+     "tr": "il-faatoora law sama7t",
+     "ar": "الفاتورة لو سمحت"
+    },
+    {
+     "id": "m4-31",
+     "en": "Give me ...",
+     "tr": "3atni ...",
+     "ar": "عطني"
+    },
+    {
+     "id": "m4-32",
+     "en": "I have cash",
+     "tr": "3indi kaash",
+     "ar": "عندي كاش"
+    },
+    {
+     "id": "m4-33",
+     "en": "There isn't any / there's none",
+     "tr": "ma fi",
+     "ar": "ما في"
+    },
+    {
+     "id": "m4-34",
+     "en": "No problem",
+     "tr": "ma fi mushkila",
+     "ar": "ما في مشكلة"
+    },
+    {
+     "id": "m4-35",
+     "en": "good / OK",
+     "tr": "zain",
+     "ar": "زين"
+    },
+    {
+     "id": "m4-36",
+     "en": "Let's go",
+     "tr": "yallah nimshi",
+     "ar": "يلا نمشي"
+    },
+    {
+     "id": "m4-37",
+     "en": "food",
+     "tr": "akil",
+     "ar": "أكل"
+    },
+    {
+     "id": "m4-38",
+     "en": "chicken",
+     "tr": "diyaay",
+     "ar": "دياي",
+     "note": "Emirati for dijaaj."
+    },
+    {
+     "id": "m4-39",
+     "en": "delicious",
+     "tr": "lazeedh",
+     "ar": "لذيذ"
+    },
+    {
+     "id": "m4-40",
+     "en": "with me / I'm with you",
+     "tr": "wiyyaay",
+     "ar": "وياي"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "title": "Food and restaurants",
+   "blurb": "Ordering, preferences, invitations to eat.",
+   "items": [
+    {
+     "id": "m5-01",
+     "en": "breakfast",
+     "tr": "rayoog",
+     "ar": "ريوق",
+     "note": "Emirati word; elsewhere futoor."
+    },
+    {
+     "id": "m5-02",
+     "en": "lunch",
+     "tr": "ghada",
+     "ar": "غدا"
+    },
+    {
+     "id": "m5-03",
+     "en": "dinner",
+     "tr": "3asha",
+     "ar": "عشا"
+    },
+    {
+     "id": "m5-04",
+     "en": "Let's have lunch",
+     "tr": "yallah nitghadda",
+     "ar": "يلا نتغدى"
+    },
+    {
+     "id": "m5-05",
+     "en": "What do you want to eat? (to a man)",
+     "tr": "shu tabi taakil?",
+     "ar": "شو تبي تاكل؟"
+    },
+    {
+     "id": "m5-06",
+     "en": "rice",
+     "tr": "3aish",
+     "ar": "عيش",
+     "note": "In the Gulf 3aish means rice, not bread."
+    },
+    {
+     "id": "m5-07",
+     "en": "meat",
+     "tr": "la7am",
+     "ar": "لحم"
+    },
+    {
+     "id": "m5-08",
+     "en": "fish",
+     "tr": "samach",
+     "ar": "سمچ"
+    },
+    {
+     "id": "m5-09",
+     "en": "bread",
+     "tr": "khubz",
+     "ar": "خبز"
+    },
+    {
+     "id": "m5-10",
+     "en": "vegetables",
+     "tr": "khadhaar",
+     "ar": "خضار"
+    },
+    {
+     "id": "m5-11",
+     "en": "fruit",
+     "tr": "fawaakih",
+     "ar": "فواكه"
+    },
+    {
+     "id": "m5-12",
+     "en": "salad",
+     "tr": "salata",
+     "ar": "سلطة"
+    },
+    {
+     "id": "m5-13",
+     "en": "dates",
+     "tr": "tamir",
+     "ar": "تمر"
+    },
+    {
+     "id": "m5-14",
+     "en": "Arabic coffee",
+     "tr": "gahwa 3arabiyya",
+     "ar": "قهوة عربية"
+    },
+    {
+     "id": "m5-15",
+     "en": "milk",
+     "tr": "7aleeb",
+     "ar": "حليب"
+    },
+    {
+     "id": "m5-16",
+     "en": "juice",
+     "tr": "3aseer",
+     "ar": "عصير"
+    },
+    {
+     "id": "m5-17",
+     "en": "tea with milk",
+     "tr": "chaay 7aleeb",
+     "ar": "چاي حليب"
+    },
+    {
+     "id": "m5-18",
+     "en": "spicy / hot",
+     "tr": "7aar",
+     "ar": "حار"
+    },
+    {
+     "id": "m5-19",
+     "en": "not spicy",
+     "tr": "mub 7aar",
+     "ar": "مب حار"
+    },
+    {
+     "id": "m5-20",
+     "en": "salty",
+     "tr": "maali7",
+     "ar": "مالح"
+    },
+    {
+     "id": "m5-21",
+     "en": "cold",
+     "tr": "baarid",
+     "ar": "بارد"
+    },
+    {
+     "id": "m5-22",
+     "en": "I'm full",
+     "tr": "ana shab3aan",
+     "ar": "أنا شبعان"
+    },
+    {
+     "id": "m5-23",
+     "en": "Very tasty!",
+     "tr": "wayid lazeedh!",
+     "ar": "وايد لذيذ!"
+    },
+    {
+     "id": "m5-24",
+     "en": "Enjoy your meal",
+     "tr": "bil 3aafya",
+     "ar": "بالعافية"
+    },
+    {
+     "id": "m5-25",
+     "en": "The menu, please",
+     "tr": "il-menu law sama7t",
+     "ar": "المنيو لو سمحت"
+    },
+    {
+     "id": "m5-26",
+     "en": "A table for two",
+     "tr": "taawla l-ithnain",
+     "ar": "طاولة لثنين"
+    },
+    {
+     "id": "m5-27",
+     "en": "For here or takeaway?",
+     "tr": "hni walla safari?",
+     "ar": "هني ولا سفري؟",
+     "note": "safari means takeaway in the Gulf."
+    },
+    {
+     "id": "m5-28",
+     "en": "takeaway",
+     "tr": "safari",
+     "ar": "سفري"
+    },
+    {
+     "id": "m5-29",
+     "en": "delivery",
+     "tr": "tawseel",
+     "ar": "توصيل"
+    },
+    {
+     "id": "m5-30",
+     "en": "I'm vegetarian",
+     "tr": "ana nabaati",
+     "ar": "أنا نباتي"
+    },
+    {
+     "id": "m5-31",
+     "en": "without meat",
+     "tr": "bdoon la7am",
+     "ar": "بدون لحم"
+    },
+    {
+     "id": "m5-32",
+     "en": "Add a little more",
+     "tr": "zeed shway",
+     "ar": "زيد شوي"
+    },
+    {
+     "id": "m5-33",
+     "en": "I'd like to order",
+     "tr": "abi atlub",
+     "ar": "أبي أطلب"
+    },
+    {
+     "id": "m5-34",
+     "en": "What do you recommend? (to a man)",
+     "tr": "shu tinsa7ni?",
+     "ar": "شو تنصحني؟"
+    },
+    {
+     "id": "m5-35",
+     "en": "What's this?",
+     "tr": "shu haadha?",
+     "ar": "شو هذا؟"
+    },
+    {
+     "id": "m5-36",
+     "en": "Is it fresh?",
+     "tr": "haadha taaza?",
+     "ar": "هذا طازة؟"
+    },
+    {
+     "id": "m5-37",
+     "en": "Please, eat! (inviting a man)",
+     "tr": "tfaddal kil!",
+     "ar": "تفضل كل!"
+    },
+    {
+     "id": "m5-38",
+     "en": "No thanks, I've eaten",
+     "tr": "la mashkoor, kalt",
+     "ar": "لا مشكور، كلت"
+    },
+    {
+     "id": "m5-39",
+     "en": "Another cup (of Arabic coffee)",
+     "tr": "finjaan thaani",
+     "ar": "فنجان ثاني",
+     "note": "Shake the little cup gently when you've had enough."
+    },
+    {
+     "id": "m5-40",
+     "en": "spoon",
+     "tr": "khaashooga",
+     "ar": "خاشوقة"
+    },
+    {
+     "id": "m5-41",
+     "en": "knife",
+     "tr": "sichcheen",
+     "ar": "سچين"
+    },
+    {
+     "id": "m5-42",
+     "en": "plate",
+     "tr": "sa7an",
+     "ar": "صحن"
+    },
+    {
+     "id": "m5-43",
+     "en": "tissues / napkins",
+     "tr": "manaadeel",
+     "ar": "مناديل"
+    },
+    {
+     "id": "m5-44",
+     "en": "restaurant",
+     "tr": "mat3am",
+     "ar": "مطعم"
+    },
+    {
+     "id": "m5-45",
+     "en": "The bill is on me",
+     "tr": "il-7saab 3alay",
+     "ar": "الحساب علي"
+    },
+    {
+     "id": "m5-46",
+     "en": "Let me pay",
+     "tr": "khallni adfa3",
+     "ar": "خلني أدفع"
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "title": "Shopping",
+   "blurb": "Sizes, colours, bargaining, returns.",
+   "items": [
+    {
+     "id": "m6-01",
+     "en": "shop",
+     "tr": "dukkaan",
+     "ar": "دكان"
+    },
+    {
+     "id": "m6-02",
+     "en": "mall",
+     "tr": "mool",
+     "ar": "مول"
+    },
+    {
+     "id": "m6-03",
+     "en": "market / souk",
+     "tr": "soog",
+     "ar": "سوق"
+    },
+    {
+     "id": "m6-04",
+     "en": "clothes",
+     "tr": "hdoom",
+     "ar": "هدوم"
+    },
+    {
+     "id": "m6-05",
+     "en": "sandals / slippers",
+     "tr": "ni3aal",
+     "ar": "نعال"
+    },
+    {
+     "id": "m6-06",
+     "en": "size",
+     "tr": "magaas",
+     "ar": "مقاس"
+    },
+    {
+     "id": "m6-07",
+     "en": "big",
+     "tr": "chibeer",
+     "ar": "چبير",
+     "note": "Emirati k becomes ch: kabeer becomes chibeer."
+    },
+    {
+     "id": "m6-08",
+     "en": "small",
+     "tr": "sagheer",
+     "ar": "صغير"
+    },
+    {
+     "id": "m6-09",
+     "en": "bigger",
+     "tr": "akbar",
+     "ar": "أكبر"
+    },
+    {
+     "id": "m6-10",
+     "en": "smaller",
+     "tr": "asghar",
+     "ar": "أصغر"
+    },
+    {
+     "id": "m6-11",
+     "en": "colour",
+     "tr": "loon",
+     "ar": "لون"
+    },
+    {
+     "id": "m6-12",
+     "en": "red",
+     "tr": "a7mar",
+     "ar": "أحمر"
+    },
+    {
+     "id": "m6-13",
+     "en": "blue",
+     "tr": "azrag",
+     "ar": "أزرق"
+    },
+    {
+     "id": "m6-14",
+     "en": "white",
+     "tr": "abyadh",
+     "ar": "أبيض"
+    },
+    {
+     "id": "m6-15",
+     "en": "black",
+     "tr": "aswad",
+     "ar": "أسود"
+    },
+    {
+     "id": "m6-16",
+     "en": "green",
+     "tr": "akhdhar",
+     "ar": "أخضر"
+    },
+    {
+     "id": "m6-17",
+     "en": "Do you have another colour?",
+     "tr": "3indkum loon thaani?",
+     "ar": "عندكم لون ثاني؟"
+    },
+    {
+     "id": "m6-18",
+     "en": "Can I try it on?",
+     "tr": "agdar ajarrbah?",
+     "ar": "أقدر أجربه؟"
+    },
+    {
+     "id": "m6-19",
+     "en": "I can",
+     "tr": "agdar",
+     "ar": "أقدر"
+    },
+    {
+     "id": "m6-20",
+     "en": "I can't",
+     "tr": "ma agdar",
+     "ar": "ما أقدر"
+    },
+    {
+     "id": "m6-21",
+     "en": "It's too big",
+     "tr": "chibeer wayid",
+     "ar": "چبير وايد"
+    },
+    {
+     "id": "m6-22",
+     "en": "It doesn't fit me",
+     "tr": "mub 3ala magaasi",
+     "ar": "مب على مقاسي"
+    },
+    {
+     "id": "m6-23",
+     "en": "I'll take it",
+     "tr": "baakhdhah",
+     "ar": "باخذه"
+    },
+    {
+     "id": "m6-24",
+     "en": "I'm just looking",
+     "tr": "bas ashoof",
+     "ar": "بس أشوف"
+    },
+    {
+     "id": "m6-25",
+     "en": "What's your last price?",
+     "tr": "aakhir si3r?",
+     "ar": "آخر سعر؟",
+     "note": "The classic souk question."
+    },
+    {
+     "id": "m6-26",
+     "en": "Can you go a bit lower?",
+     "tr": "tnazzil shway?",
+     "ar": "تنزل شوي؟"
+    },
+    {
+     "id": "m6-27",
+     "en": "How much for two?",
+     "tr": "bkam il-ithnain?",
+     "ar": "بكم الثنين؟"
+    },
+    {
+     "id": "m6-28",
+     "en": "bag",
+     "tr": "kees",
+     "ar": "كيس"
+    },
+    {
+     "id": "m6-29",
+     "en": "Do you have a bag?",
+     "tr": "3indkum kees?",
+     "ar": "عندكم كيس؟"
+    },
+    {
+     "id": "m6-30",
+     "en": "Can I pay by card?",
+     "tr": "agdar adfa3 bil kart?",
+     "ar": "أقدر أدفع بالكارت؟"
+    },
+    {
+     "id": "m6-31",
+     "en": "change (money back)",
+     "tr": "il-baagi",
+     "ar": "الباقي"
+    },
+    {
+     "id": "m6-32",
+     "en": "Keep the change",
+     "tr": "khall il-baagi",
+     "ar": "خل الباقي"
+    },
+    {
+     "id": "m6-33",
+     "en": "open",
+     "tr": "maftoo7",
+     "ar": "مفتوح"
+    },
+    {
+     "id": "m6-34",
+     "en": "closed",
+     "tr": "msakkir",
+     "ar": "مسكر"
+    },
+    {
+     "id": "m6-35",
+     "en": "When do you close?",
+     "tr": "mita tsakkiroon?",
+     "ar": "متى تسكرون؟"
+    },
+    {
+     "id": "m6-36",
+     "en": "I want to exchange it",
+     "tr": "abi abaddlah",
+     "ar": "أبي أبدله"
+    },
+    {
+     "id": "m6-37",
+     "en": "broken",
+     "tr": "kharbaan",
+     "ar": "خربان"
+    },
+    {
+     "id": "m6-38",
+     "en": "new",
+     "tr": "yideed",
+     "ar": "يديد",
+     "note": "Emirati j becomes y; many Gulf speakers say jadeed."
+    },
+    {
+     "id": "m6-39",
+     "en": "old",
+     "tr": "gadeem",
+     "ar": "قديم"
+    },
+    {
+     "id": "m6-40",
+     "en": "nice / pretty / sweet",
+     "tr": "7ilu",
+     "ar": "حلو"
+    },
+    {
+     "id": "m6-41",
+     "en": "this (m. / f.)",
+     "tr": "haadha / haadhi",
+     "ar": "هذا، هذي"
+    },
+    {
+     "id": "m6-42",
+     "en": "that one",
+     "tr": "haadhaak",
+     "ar": "هذاك"
+    },
+    {
+     "id": "m6-43",
+     "en": "perfume",
+     "tr": "3itr",
+     "ar": "عطر"
+    },
+    {
+     "id": "m6-44",
+     "en": "oud oil",
+     "tr": "dihn 3ood",
+     "ar": "دهن عود"
+    },
+    {
+     "id": "m6-45",
+     "en": "incense",
+     "tr": "bukhoor",
+     "ar": "بخور"
+    },
+    {
+     "id": "m6-46",
+     "en": "Can I smell it?",
+     "tr": "agdar ashimmah?",
+     "ar": "أقدر أشمه؟"
+    },
+    {
+     "id": "m6-47",
+     "en": "gift",
+     "tr": "hadiyya",
+     "ar": "هدية"
+    },
+    {
+     "id": "m6-48",
+     "en": "gold",
+     "tr": "dhahab",
+     "ar": "ذهب"
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "title": "Phone calls and plans",
+   "blurb": "Calling, arranging, confirming and cancelling.",
+   "items": [
+    {
+     "id": "m7-01",
+     "en": "Hello? (on the phone)",
+     "tr": "alo?",
+     "ar": "ألو؟"
+    },
+    {
+     "id": "m7-02",
+     "en": "Who's speaking?",
+     "tr": "minu yitkallam?",
+     "ar": "منو يتكلم؟"
+    },
+    {
+     "id": "m7-03",
+     "en": "It's Pranjal (lit. you're with Pranjal)",
+     "tr": "ma3aak Pranjal",
+     "ar": "معاك برانجال"
+    },
+    {
+     "id": "m7-04",
+     "en": "Where are you? (to a man)",
+     "tr": "wainak?",
+     "ar": "وينك؟"
+    },
+    {
+     "id": "m7-05",
+     "en": "I'm on my way",
+     "tr": "ana fi it-tareeg",
+     "ar": "أنا في الطريق"
+    },
+    {
+     "id": "m7-06",
+     "en": "I'm coming",
+     "tr": "yaay",
+     "ar": "ياي",
+     "note": "Emirati for jaay."
+    },
+    {
+     "id": "m7-07",
+     "en": "in ten minutes",
+     "tr": "ba3d 3ashar dagaayig",
+     "ar": "بعد عشر دقايق"
+    },
+    {
+     "id": "m7-08",
+     "en": "I'm late, sorry",
+     "tr": "ta'akhkhart, aasif",
+     "ar": "تأخرت، آسف"
+    },
+    {
+     "id": "m7-09",
+     "en": "I can't hear you",
+     "tr": "ma asma3k",
+     "ar": "ما أسمعك"
+    },
+    {
+     "id": "m7-10",
+     "en": "The line is bad",
+     "tr": "il-khatt mub zain",
+     "ar": "الخط مب زين"
+    },
+    {
+     "id": "m7-11",
+     "en": "I'll call you later",
+     "tr": "battasil feek ba3dain",
+     "ar": "بتصل فيك بعدين"
+    },
+    {
+     "id": "m7-12",
+     "en": "Call me",
+     "tr": "dig 3alay",
+     "ar": "دق علي",
+     "note": "Gulf: dig = ring."
+    },
+    {
+     "id": "m7-13",
+     "en": "send",
+     "tr": "tarrish",
+     "ar": "طرش"
+    },
+    {
+     "id": "m7-14",
+     "en": "Send me the location",
+     "tr": "tarrish li il-lokeishan",
+     "ar": "طرش لي اللوكيشن"
+    },
+    {
+     "id": "m7-15",
+     "en": "Text me",
+     "tr": "tarrish li rasaala",
+     "ar": "طرش لي رسالة"
+    },
+    {
+     "id": "m7-16",
+     "en": "Are you free tomorrow? (to a man)",
+     "tr": "inta faadhi baachir?",
+     "ar": "إنت فاضي باجر؟"
+    },
+    {
+     "id": "m7-17",
+     "en": "free (not busy)",
+     "tr": "faadhi",
+     "ar": "فاضي"
+    },
+    {
+     "id": "m7-18",
+     "en": "I don't have time",
+     "tr": "ma 3indi wagt",
+     "ar": "ما عندي وقت"
+    },
+    {
+     "id": "m7-19",
+     "en": "Let's meet",
+     "tr": "khalna nitlaaga",
+     "ar": "خلنا نتلاقى"
+    },
+    {
+     "id": "m7-20",
+     "en": "Where shall we meet?",
+     "tr": "wain nitlaaga?",
+     "ar": "وين نتلاقى؟"
+    },
+    {
+     "id": "m7-21",
+     "en": "What time?",
+     "tr": "ay saa3a?",
+     "ar": "أي ساعة؟"
+    },
+    {
+     "id": "m7-22",
+     "en": "at seven o'clock",
+     "tr": "is-saa3a sab3",
+     "ar": "الساعة سبع"
+    },
+    {
+     "id": "m7-23",
+     "en": "after work",
+     "tr": "ba3d id-dawaam",
+     "ar": "بعد الدوام"
+    },
+    {
+     "id": "m7-24",
+     "en": "working hours / shift",
+     "tr": "dawaam",
+     "ar": "دوام"
+    },
+    {
+     "id": "m7-25",
+     "en": "day off / holiday",
+     "tr": "3utla",
+     "ar": "عطلة"
+    },
+    {
+     "id": "m7-26",
+     "en": "maybe",
+     "tr": "yimkin",
+     "ar": "يمكن"
+    },
+    {
+     "id": "m7-27",
+     "en": "sure / definitely",
+     "tr": "akeed",
+     "ar": "أكيد"
+    },
+    {
+     "id": "m7-28",
+     "en": "See you later",
+     "tr": "ashoofak ba3dain",
+     "ar": "أشوفك بعدين"
+    },
+    {
+     "id": "m7-29",
+     "en": "See you tomorrow",
+     "tr": "ashoofak baachir",
+     "ar": "أشوفك باجر"
+    },
+    {
+     "id": "m7-30",
+     "en": "Let's cancel",
+     "tr": "nkansil",
+     "ar": "نكنسل",
+     "note": "Borrowed from English, used all over Dubai."
+    },
+    {
+     "id": "m7-31",
+     "en": "Let's postpone it",
+     "tr": "khalna n'ajjlah",
+     "ar": "خلنا نأجله"
+    },
+    {
+     "id": "m7-32",
+     "en": "I forgot",
+     "tr": "nseet",
+     "ar": "نسيت"
+    },
+    {
+     "id": "m7-33",
+     "en": "Remind me",
+     "tr": "dhakkirni",
+     "ar": "ذكرني"
+    },
+    {
+     "id": "m7-34",
+     "en": "Wait for me",
+     "tr": "intadhirni",
+     "ar": "انتظرني"
+    },
+    {
+     "id": "m7-35",
+     "en": "I've arrived",
+     "tr": "wisalt",
+     "ar": "وصلت"
+    },
+    {
+     "id": "m7-36",
+     "en": "I'm here",
+     "tr": "ana hni",
+     "ar": "أنا هني"
+    },
+    {
+     "id": "m7-37",
+     "en": "What's your number? (to a man)",
+     "tr": "shu ragmak?",
+     "ar": "شو رقمك؟"
+    },
+    {
+     "id": "m7-38",
+     "en": "My number is ...",
+     "tr": "ragmi ...",
+     "ar": "رقمي"
+    },
+    {
+     "id": "m7-39",
+     "en": "Call me back / reply to me",
+     "tr": "rudd 3alay",
+     "ar": "رد علي"
+    },
+    {
+     "id": "m7-40",
+     "en": "He's not answering",
+     "tr": "ma yrudd",
+     "ar": "ما يرد"
+    },
+    {
+     "id": "m7-41",
+     "en": "The line is busy",
+     "tr": "il-khatt mashghool",
+     "ar": "الخط مشغول"
+    },
+    {
+     "id": "m7-42",
+     "en": "My battery died",
+     "tr": "il-batri khalas",
+     "ar": "البطري خلص"
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "title": "Work and meetings",
+   "blurb": "Projects, deadlines, agreeing and disagreeing.",
+   "items": [
+    {
+     "id": "m8-01",
+     "en": "project",
+     "tr": "mashroo3",
+     "ar": "مشروع"
+    },
+    {
+     "id": "m8-02",
+     "en": "deadline",
+     "tr": "maw3id it-tasleem",
+     "ar": "موعد التسليم",
+     "note": "In Dubai offices people often just say deadline."
+    },
+    {
+     "id": "m8-03",
+     "en": "report",
+     "tr": "tagreer",
+     "ar": "تقرير"
+    },
+    {
+     "id": "m8-04",
+     "en": "contract",
+     "tr": "3agd",
+     "ar": "عقد"
+    },
+    {
+     "id": "m8-05",
+     "en": "price quote",
+     "tr": "3ardh si3r",
+     "ar": "عرض سعر"
+    },
+    {
+     "id": "m8-06",
+     "en": "manager",
+     "tr": "mudeer",
+     "ar": "مدير"
+    },
+    {
+     "id": "m8-07",
+     "en": "team",
+     "tr": "fareeg",
+     "ar": "فريق"
+    },
+    {
+     "id": "m8-08",
+     "en": "employee",
+     "tr": "muwadhdhaf",
+     "ar": "موظف"
+    },
+    {
+     "id": "m8-09",
+     "en": "Let's start",
+     "tr": "yallah nibda",
+     "ar": "يلا نبدأ"
+    },
+    {
+     "id": "m8-10",
+     "en": "Any questions?",
+     "tr": "fi as'ila?",
+     "ar": "في أسئلة؟"
+    },
+    {
+     "id": "m8-11",
+     "en": "I agree with you",
+     "tr": "ana mittafig ma3ak",
+     "ar": "أنا متفق معاك"
+    },
+    {
+     "id": "m8-12",
+     "en": "I don't agree",
+     "tr": "ana mub mittafig",
+     "ar": "أنا مب متفق"
+    },
+    {
+     "id": "m8-13",
+     "en": "In my opinion",
+     "tr": "fi raayi",
+     "ar": "في رأيي"
+    },
+    {
+     "id": "m8-14",
+     "en": "What do you think? (to a man)",
+     "tr": "shu raayak?",
+     "ar": "شو رأيك؟"
+    },
+    {
+     "id": "m8-15",
+     "en": "Good idea",
+     "tr": "fikra zaina",
+     "ar": "فكرة زينة"
+    },
+    {
+     "id": "m8-16",
+     "en": "It's urgent",
+     "tr": "haadha musta3jal",
+     "ar": "هذا مستعجل"
+    },
+    {
+     "id": "m8-17",
+     "en": "It's not urgent",
+     "tr": "mub musta3jal",
+     "ar": "مب مستعجل"
+    },
+    {
+     "id": "m8-18",
+     "en": "When will it be finished?",
+     "tr": "mita yikhallis?",
+     "ar": "متى يخلص؟"
+    },
+    {
+     "id": "m8-19",
+     "en": "I finished",
+     "tr": "khallast",
+     "ar": "خلصت"
+    },
+    {
+     "id": "m8-20",
+     "en": "I'll send it today",
+     "tr": "batarrishah il-yoom",
+     "ar": "بطرشه اليوم"
+    },
+    {
+     "id": "m8-21",
+     "en": "Did you send it? (to a man)",
+     "tr": "tarrashtah?",
+     "ar": "طرشته؟"
+    },
+    {
+     "id": "m8-22",
+     "en": "I'll check",
+     "tr": "bashoof",
+     "ar": "بشوف"
+    },
+    {
+     "id": "m8-23",
+     "en": "Let me check and get back to you",
+     "tr": "khal ashoof w arudd 3aleek",
+     "ar": "خل أشوف وأرد عليك"
+    },
+    {
+     "id": "m8-24",
+     "en": "email",
+     "tr": "eemail",
+     "ar": "إيميل"
+    },
+    {
+     "id": "m8-25",
+     "en": "documents / papers",
+     "tr": "awraag",
+     "ar": "أوراق"
+    },
+    {
+     "id": "m8-26",
+     "en": "signature",
+     "tr": "tawgee3",
+     "ar": "توقيع"
+    },
+    {
+     "id": "m8-27",
+     "en": "Sign here (to a man)",
+     "tr": "waggi3 hni",
+     "ar": "وقع هني"
+    },
+    {
+     "id": "m8-28",
+     "en": "meeting room",
+     "tr": "ghurfat il-ijtimaa3",
+     "ar": "غرفة الاجتماع"
+    },
+    {
+     "id": "m8-29",
+     "en": "online meeting",
+     "tr": "ijtimaa3 onlain",
+     "ar": "اجتماع أونلاين"
+    },
+    {
+     "id": "m8-30",
+     "en": "There's a problem",
+     "tr": "fi mushkila",
+     "ar": "في مشكلة"
+    },
+    {
+     "id": "m8-31",
+     "en": "solution",
+     "tr": "7al",
+     "ar": "حل"
+    },
+    {
+     "id": "m8-32",
+     "en": "We need ...",
+     "tr": "ni7taaj ...",
+     "ar": "نحتاج"
+    },
+    {
+     "id": "m8-33",
+     "en": "more time",
+     "tr": "wagt akthar",
+     "ar": "وقت أكثر"
+    },
+    {
+     "id": "m8-34",
+     "en": "budget",
+     "tr": "meezaaniyya",
+     "ar": "ميزانية"
+    },
+    {
+     "id": "m8-35",
+     "en": "money",
+     "tr": "floos",
+     "ar": "فلوس"
+    },
+    {
+     "id": "m8-36",
+     "en": "salary",
+     "tr": "raatib",
+     "ar": "راتب"
+    },
+    {
+     "id": "m8-37",
+     "en": "profit",
+     "tr": "rib7",
+     "ar": "ربح"
+    },
+    {
+     "id": "m8-38",
+     "en": "cost",
+     "tr": "taklifa",
+     "ar": "تكلفة"
+    },
+    {
+     "id": "m8-39",
+     "en": "supplier",
+     "tr": "muwarrid",
+     "ar": "مورد"
+    },
+    {
+     "id": "m8-40",
+     "en": "the site (work site)",
+     "tr": "il-mawgi3",
+     "ar": "الموقع"
+    },
+    {
+     "id": "m8-41",
+     "en": "oil and gas",
+     "tr": "naft w ghaaz",
+     "ar": "نفط وغاز"
+    },
+    {
+     "id": "m8-42",
+     "en": "Thanks for your effort",
+     "tr": "mashkoor 3ala jahdak",
+     "ar": "مشكور على جهدك"
+    },
+    {
+     "id": "m8-43",
+     "en": "Well done (lit. health to you)",
+     "tr": "3aafya 3aleek",
+     "ar": "عافية عليك",
+     "note": "Gulf way to say well done."
+    },
+    {
+     "id": "m8-44",
+     "en": "Congratulations",
+     "tr": "mabrook",
+     "ar": "مبروك"
+    },
+    {
+     "id": "m8-45",
+     "en": "Good luck",
+     "tr": "bit-tawfeeg",
+     "ar": "بالتوفيق"
+    },
+    {
+     "id": "m8-46",
+     "en": "Let's wrap up",
+     "tr": "khalna nikhallis",
+     "ar": "خلنا نخلص"
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "title": "Home and building",
+   "blurb": "Repairs, deliveries, the building guard and neighbours.",
+   "items": [
+    {
+     "id": "m9-01",
+     "en": "building",
+     "tr": "binaaya",
+     "ar": "بناية"
+    },
+    {
+     "id": "m9-02",
+     "en": "floor (storey)",
+     "tr": "taabig",
+     "ar": "طابق"
+    },
+    {
+     "id": "m9-03",
+     "en": "Which floor?",
+     "tr": "ay taabig?",
+     "ar": "أي طابق؟"
+    },
+    {
+     "id": "m9-04",
+     "en": "lift / elevator",
+     "tr": "il-mas3ad",
+     "ar": "المصعد"
+    },
+    {
+     "id": "m9-05",
+     "en": "stairs",
+     "tr": "id-daraj",
+     "ar": "الدرج",
+     "note": "Many Emiratis say id-daray."
+    },
+    {
+     "id": "m9-06",
+     "en": "door",
+     "tr": "baab",
+     "ar": "باب"
+    },
+    {
+     "id": "m9-07",
+     "en": "window",
+     "tr": "dareesha",
+     "ar": "دريشة"
+    },
+    {
+     "id": "m9-08",
+     "en": "room",
+     "tr": "7ijra",
+     "ar": "حجرة"
+    },
+    {
+     "id": "m9-09",
+     "en": "kitchen",
+     "tr": "matbakh",
+     "ar": "مطبخ"
+    },
+    {
+     "id": "m9-10",
+     "en": "bathroom",
+     "tr": "7ammaam",
+     "ar": "حمام"
+    },
+    {
+     "id": "m9-11",
+     "en": "key",
+     "tr": "miftaa7",
+     "ar": "مفتاح"
+    },
+    {
+     "id": "m9-12",
+     "en": "the AC",
+     "tr": "il-mukayyif",
+     "ar": "المكيف"
+    },
+    {
+     "id": "m9-13",
+     "en": "The AC isn't working",
+     "tr": "il-mukayyif kharbaan",
+     "ar": "المكيف خربان"
+    },
+    {
+     "id": "m9-14",
+     "en": "There's a water leak",
+     "tr": "fi tasreeb maay",
+     "ar": "في تسريب ماي"
+    },
+    {
+     "id": "m9-15",
+     "en": "electricity",
+     "tr": "kahraba",
+     "ar": "كهربا"
+    },
+    {
+     "id": "m9-16",
+     "en": "There's no electricity",
+     "tr": "ma fi kahraba",
+     "ar": "ما في كهربا"
+    },
+    {
+     "id": "m9-17",
+     "en": "Turn on the light",
+     "tr": "shaghghil il-lait",
+     "ar": "شغل اللايت"
+    },
+    {
+     "id": "m9-18",
+     "en": "Turn it off",
+     "tr": "taffi",
+     "ar": "طفي"
+    },
+    {
+     "id": "m9-19",
+     "en": "maintenance",
+     "tr": "siyaana",
+     "ar": "صيانة"
+    },
+    {
+     "id": "m9-20",
+     "en": "the building guard",
+     "tr": "il-7aaris",
+     "ar": "الحارس",
+     "note": "Also called naatoor."
+    },
+    {
+     "id": "m9-21",
+     "en": "neighbour",
+     "tr": "jaar",
+     "ar": "جار"
+    },
+    {
+     "id": "m9-22",
+     "en": "courier / delivery driver",
+     "tr": "mandoob",
+     "ar": "مندوب"
+    },
+    {
+     "id": "m9-23",
+     "en": "parcel",
+     "tr": "shi7na",
+     "ar": "شحنة"
+    },
+    {
+     "id": "m9-24",
+     "en": "I have a parcel",
+     "tr": "3indi shi7na",
+     "ar": "عندي شحنة"
+    },
+    {
+     "id": "m9-25",
+     "en": "Leave it at the door",
+     "tr": "khallah 3ind il-baab",
+     "ar": "خله عند الباب"
+    },
+    {
+     "id": "m9-26",
+     "en": "Come up",
+     "tr": "itla3 foog",
+     "ar": "اطلع فوق"
+    },
+    {
+     "id": "m9-27",
+     "en": "upstairs",
+     "tr": "foog",
+     "ar": "فوق"
+    },
+    {
+     "id": "m9-28",
+     "en": "downstairs",
+     "tr": "ta7t",
+     "ar": "تحت"
+    },
+    {
+     "id": "m9-29",
+     "en": "apartment number",
+     "tr": "ragm ish-shagga",
+     "ar": "رقم الشقة"
+    },
+    {
+     "id": "m9-30",
+     "en": "rent",
+     "tr": "eejaar",
+     "ar": "إيجار"
+    },
+    {
+     "id": "m9-31",
+     "en": "landlord",
+     "tr": "saa7ib il-bait",
+     "ar": "صاحب البيت"
+    },
+    {
+     "id": "m9-32",
+     "en": "clean",
+     "tr": "nadheef",
+     "ar": "نظيف"
+    },
+    {
+     "id": "m9-33",
+     "en": "dirty",
+     "tr": "wasikh",
+     "ar": "وسخ"
+    },
+    {
+     "id": "m9-34",
+     "en": "cleaning",
+     "tr": "tandheef",
+     "ar": "تنظيف"
+    },
+    {
+     "id": "m9-35",
+     "en": "furniture",
+     "tr": "athaath",
+     "ar": "أثاث"
+    },
+    {
+     "id": "m9-36",
+     "en": "bed",
+     "tr": "sareer",
+     "ar": "سرير"
+    },
+    {
+     "id": "m9-37",
+     "en": "chair",
+     "tr": "kirsi",
+     "ar": "كرسي"
+    },
+    {
+     "id": "m9-38",
+     "en": "TV",
+     "tr": "talfizyoon",
+     "ar": "تلفزيون"
+    },
+    {
+     "id": "m9-39",
+     "en": "The internet is slow",
+     "tr": "il-internet batee'",
+     "ar": "الإنترنت بطيء"
+    },
+    {
+     "id": "m9-40",
+     "en": "Wi-Fi password",
+     "tr": "baaswerd il-waaifaai",
+     "ar": "باسورد الوايفاي"
+    },
+    {
+     "id": "m9-41",
+     "en": "rubbish / trash",
+     "tr": "zibaala",
+     "ar": "زبالة"
+    },
+    {
+     "id": "m9-42",
+     "en": "parking",
+     "tr": "il-mawaagif",
+     "ar": "المواقف"
+    },
+    {
+     "id": "m9-43",
+     "en": "Can you help me? (to a man)",
+     "tr": "tigdar tsaa3idni?",
+     "ar": "تقدر تساعدني؟"
+    },
+    {
+     "id": "m9-44",
+     "en": "Come in",
+     "tr": "idkhil",
+     "ar": "ادخل"
+    },
+    {
+     "id": "m9-45",
+     "en": "Open the door",
+     "tr": "ifta7 il-baab",
+     "ar": "افتح الباب"
+    },
+    {
+     "id": "m9-46",
+     "en": "Close the door",
+     "tr": "sakkir il-baab",
+     "ar": "سكر الباب"
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "title": "Health and emergencies",
+   "blurb": "Feeling unwell, the pharmacy, asking for help.",
+   "items": [
+    {
+     "id": "m10-01",
+     "en": "I'm sick",
+     "tr": "ana mareedh",
+     "ar": "أنا مريض"
+    },
+    {
+     "id": "m10-02",
+     "en": "My head hurts",
+     "tr": "raasi y3awwirni",
+     "ar": "راسي يعورني",
+     "note": "y3awwir = it hurts, very Gulf."
+    },
+    {
+     "id": "m10-03",
+     "en": "My stomach hurts",
+     "tr": "batni y3awwirni",
+     "ar": "بطني يعورني"
+    },
+    {
+     "id": "m10-04",
+     "en": "My back hurts",
+     "tr": "dhahri y3awwirni",
+     "ar": "ظهري يعورني"
+    },
+    {
+     "id": "m10-05",
+     "en": "My tooth hurts",
+     "tr": "dhirsi y3awwirni",
+     "ar": "ضرسي يعورني"
+    },
+    {
+     "id": "m10-06",
+     "en": "It hurts here",
+     "tr": "y3awwirni hni",
+     "ar": "يعورني هني"
+    },
+    {
+     "id": "m10-07",
+     "en": "pain",
+     "tr": "3awar",
+     "ar": "عوار"
+    },
+    {
+     "id": "m10-08",
+     "en": "fever",
+     "tr": "7umma",
+     "ar": "حمى"
+    },
+    {
+     "id": "m10-09",
+     "en": "a cold",
+     "tr": "zukaam",
+     "ar": "زكام"
+    },
+    {
+     "id": "m10-10",
+     "en": "cough",
+     "tr": "ka7a",
+     "ar": "كحة"
+    },
+    {
+     "id": "m10-11",
+     "en": "doctor",
+     "tr": "daktoor",
+     "ar": "دكتور"
+    },
+    {
+     "id": "m10-12",
+     "en": "hospital",
+     "tr": "mustashfa",
+     "ar": "مستشفى"
+    },
+    {
+     "id": "m10-13",
+     "en": "clinic",
+     "tr": "3iyaada",
+     "ar": "عيادة"
+    },
+    {
+     "id": "m10-14",
+     "en": "pharmacy",
+     "tr": "saydaliyya",
+     "ar": "صيدلية"
+    },
+    {
+     "id": "m10-15",
+     "en": "medicine",
+     "tr": "dawa",
+     "ar": "دوا"
+    },
+    {
+     "id": "m10-16",
+     "en": "pill / pills",
+     "tr": "7abba / 7boob",
+     "ar": "حبة، حبوب"
+    },
+    {
+     "id": "m10-17",
+     "en": "prescription",
+     "tr": "wasfa",
+     "ar": "وصفة"
+    },
+    {
+     "id": "m10-18",
+     "en": "twice a day",
+     "tr": "marratain fil yoom",
+     "ar": "مرتين في اليوم"
+    },
+    {
+     "id": "m10-19",
+     "en": "after food",
+     "tr": "ba3d il-akil",
+     "ar": "بعد الأكل"
+    },
+    {
+     "id": "m10-20",
+     "en": "appointment",
+     "tr": "maw3id",
+     "ar": "موعد"
+    },
+    {
+     "id": "m10-21",
+     "en": "I need a doctor",
+     "tr": "a7taaj daktoor",
+     "ar": "أحتاج دكتور"
+    },
+    {
+     "id": "m10-22",
+     "en": "Where's the nearest hospital?",
+     "tr": "wain agrab mustashfa?",
+     "ar": "وين أقرب مستشفى؟"
+    },
+    {
+     "id": "m10-23",
+     "en": "insurance",
+     "tr": "ta'meen",
+     "ar": "تأمين"
+    },
+    {
+     "id": "m10-24",
+     "en": "allergy",
+     "tr": "7assaasiyya",
+     "ar": "حساسية"
+    },
+    {
+     "id": "m10-25",
+     "en": "I'm allergic to ...",
+     "tr": "3indi 7assaasiyya min ...",
+     "ar": "عندي حساسية من"
+    },
+    {
+     "id": "m10-26",
+     "en": "You need rest (to a man)",
+     "tr": "ti7taaj raa7a",
+     "ar": "تحتاج راحة"
+    },
+    {
+     "id": "m10-27",
+     "en": "Get well soon (to a man)",
+     "tr": "salaamtak",
+     "ar": "سلامتك"
+    },
+    {
+     "id": "m10-28",
+     "en": "God keep you safe (reply)",
+     "tr": "allah ysallmak",
+     "ar": "الله يسلمك"
+    },
+    {
+     "id": "m10-29",
+     "en": "Help!",
+     "tr": "saa3idooni!",
+     "ar": "ساعدوني!"
+    },
+    {
+     "id": "m10-30",
+     "en": "emergency",
+     "tr": "taari'",
+     "ar": "طارئ"
+    },
+    {
+     "id": "m10-31",
+     "en": "ambulance",
+     "tr": "is3aaf",
+     "ar": "إسعاف"
+    },
+    {
+     "id": "m10-32",
+     "en": "Call an ambulance!",
+     "tr": "ittasil bil is3aaf!",
+     "ar": "اتصل بالإسعاف!"
+    },
+    {
+     "id": "m10-33",
+     "en": "police",
+     "tr": "shurta",
+     "ar": "شرطة"
+    },
+    {
+     "id": "m10-34",
+     "en": "accident",
+     "tr": "7aadith",
+     "ar": "حادث"
+    },
+    {
+     "id": "m10-35",
+     "en": "fire",
+     "tr": "7areeg",
+     "ar": "حريق"
+    },
+    {
+     "id": "m10-36",
+     "en": "Quickly!",
+     "tr": "bsir3a!",
+     "ar": "بسرعة!"
+    },
+    {
+     "id": "m10-37",
+     "en": "Be careful! (to a man)",
+     "tr": "diir baalak!",
+     "ar": "دير بالك!"
+    },
+    {
+     "id": "m10-38",
+     "en": "Are you OK? (to a man)",
+     "tr": "inta zain?",
+     "ar": "إنت زين؟"
+    },
+    {
+     "id": "m10-39",
+     "en": "I'm OK",
+     "tr": "ana zain",
+     "ar": "أنا زين"
+    },
+    {
+     "id": "m10-40",
+     "en": "It's fine / normal",
+     "tr": "3aadi",
+     "ar": "عادي"
+    },
+    {
+     "id": "m10-41",
+     "en": "I lost my wallet",
+     "tr": "dhayya3t il-boog",
+     "ar": "ضيعت البوك"
+    },
+    {
+     "id": "m10-42",
+     "en": "I'm lost",
+     "tr": "ana dhaayi3",
+     "ar": "أنا ضايع"
+    },
+    {
+     "id": "m10-43",
+     "en": "passport",
+     "tr": "jawaaz",
+     "ar": "جواز"
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "title": "Small talk and feelings",
+   "blurb": "Weather, weekends, opinions and reactions.",
+   "items": [
+    {
+     "id": "m11-01",
+     "en": "the weather",
+     "tr": "il-jaw",
+     "ar": "الجو"
+    },
+    {
+     "id": "m11-02",
+     "en": "It's very hot today",
+     "tr": "il-jaw 7aar wayid il-yoom",
+     "ar": "الجو حار وايد اليوم"
+    },
+    {
+     "id": "m11-03",
+     "en": "humidity",
+     "tr": "rtooba",
+     "ar": "رطوبة"
+    },
+    {
+     "id": "m11-04",
+     "en": "The weather is nice",
+     "tr": "il-jaw 7ilu",
+     "ar": "الجو حلو"
+    },
+    {
+     "id": "m11-05",
+     "en": "winter",
+     "tr": "sheta",
+     "ar": "شتا"
+    },
+    {
+     "id": "m11-06",
+     "en": "summer",
+     "tr": "saif",
+     "ar": "صيف"
+    },
+    {
+     "id": "m11-07",
+     "en": "rain",
+     "tr": "matar",
+     "ar": "مطر"
+    },
+    {
+     "id": "m11-08",
+     "en": "dust / sandstorm",
+     "tr": "ghbaar",
+     "ar": "غبار"
+    },
+    {
+     "id": "m11-09",
+     "en": "How was the weekend?",
+     "tr": "shlon kaan il-wiikend?",
+     "ar": "شلون كان الويكند؟"
+    },
+    {
+     "id": "m11-10",
+     "en": "It was good",
+     "tr": "kaan zain",
+     "ar": "كان زين"
+    },
+    {
+     "id": "m11-11",
+     "en": "What did you do? (to a man)",
+     "tr": "shu sawwait?",
+     "ar": "شو سويت؟",
+     "note": "sawwa (to do) is one of the most useful Gulf verbs."
+    },
+    {
+     "id": "m11-12",
+     "en": "I didn't do anything",
+     "tr": "ma sawwait shay",
+     "ar": "ما سويت شي"
+    },
+    {
+     "id": "m11-13",
+     "en": "I went to the beach",
+     "tr": "ri7t il-ba7ar",
+     "ar": "رحت البحر"
+    },
+    {
+     "id": "m11-14",
+     "en": "I went",
+     "tr": "ri7t",
+     "ar": "رحت"
+    },
+    {
+     "id": "m11-15",
+     "en": "the sea / the beach",
+     "tr": "il-ba7ar",
+     "ar": "البحر"
+    },
+    {
+     "id": "m11-16",
+     "en": "the desert / the outdoors",
+     "tr": "il-barr",
+     "ar": "البر"
+    },
+    {
+     "id": "m11-17",
+     "en": "I like ...",
+     "tr": "y3jibni ...",
+     "ar": "يعجبني"
+    },
+    {
+     "id": "m11-18",
+     "en": "I don't like it",
+     "tr": "ma y3jibni",
+     "ar": "ما يعجبني"
+    },
+    {
+     "id": "m11-19",
+     "en": "I love it",
+     "tr": "a7ibbah",
+     "ar": "أحبه"
+    },
+    {
+     "id": "m11-20",
+     "en": "Really?",
+     "tr": "sidj?",
+     "ar": "صدج؟",
+     "note": "Gulf version of sidq (really, true)."
+    },
+    {
+     "id": "m11-21",
+     "en": "I'm upset",
+     "tr": "ana za3laan",
+     "ar": "أنا زعلان"
+    },
+    {
+     "id": "m11-22",
+     "en": "I'm bored",
+     "tr": "ana zahgaan",
+     "ar": "أنا زهقان"
+    },
+    {
+     "id": "m11-23",
+     "en": "I'm worried",
+     "tr": "ana galgaan",
+     "ar": "أنا قلقان"
+    },
+    {
+     "id": "m11-24",
+     "en": "I can't wait / I'm excited",
+     "tr": "ana mitshawwig",
+     "ar": "أنا متشوق"
+    },
+    {
+     "id": "m11-25",
+     "en": "I miss you (to a man)",
+     "tr": "mishtaag lak",
+     "ar": "مشتاق لك"
+    },
+    {
+     "id": "m11-26",
+     "en": "It's been ages!",
+     "tr": "min zamaan!",
+     "ar": "من زمان!"
+    },
+    {
+     "id": "m11-27",
+     "en": "It's funny",
+     "tr": "yidha77ik",
+     "ar": "يضحك"
+    },
+    {
+     "id": "m11-28",
+     "en": "strange",
+     "tr": "ghareeb",
+     "ar": "غريب"
+    },
+    {
+     "id": "m11-29",
+     "en": "That's right",
+     "tr": "sa7",
+     "ar": "صح"
+    },
+    {
+     "id": "m11-30",
+     "en": "wrong",
+     "tr": "ghalat",
+     "ar": "غلط"
+    },
+    {
+     "id": "m11-31",
+     "en": "Exactly",
+     "tr": "bidh-dhabt",
+     "ar": "بالضبط"
+    },
+    {
+     "id": "m11-32",
+     "en": "I think so",
+     "tr": "adhin",
+     "ar": "أظن"
+    },
+    {
+     "id": "m11-33",
+     "en": "By the way",
+     "tr": "3ala fikra",
+     "ar": "على فكرة"
+    },
+    {
+     "id": "m11-34",
+     "en": "Anyway",
+     "tr": "3ala kil 7aal",
+     "ar": "على كل حال"
+    },
+    {
+     "id": "m11-35",
+     "en": "hobby",
+     "tr": "hiwaaya",
+     "ar": "هواية"
+    },
+    {
+     "id": "m11-36",
+     "en": "football",
+     "tr": "kurat il-gadam",
+     "ar": "كرة القدم"
+    },
+    {
+     "id": "m11-37",
+     "en": "I go to the gym",
+     "tr": "arou7 in-naadi",
+     "ar": "أروح النادي"
+    },
+    {
+     "id": "m11-38",
+     "en": "travel",
+     "tr": "safar",
+     "ar": "سفر"
+    },
+    {
+     "id": "m11-39",
+     "en": "I'm travelling next week",
+     "tr": "bsaafir il-usboo3 il-jaay",
+     "ar": "بسافر الأسبوع الجاي"
+    },
+    {
+     "id": "m11-40",
+     "en": "next (week, month)",
+     "tr": "il-jaay",
+     "ar": "الجاي"
+    },
+    {
+     "id": "m11-41",
+     "en": "last (week, month)",
+     "tr": "il-maadhi",
+     "ar": "الماضي"
+    },
+    {
+     "id": "m11-42",
+     "en": "Ramadan Kareem",
+     "tr": "ramadhaan kareem",
+     "ar": "رمضان كريم"
+    },
+    {
+     "id": "m11-43",
+     "en": "God is more generous (reply)",
+     "tr": "allahu akram",
+     "ar": "الله أكرم"
+    },
+    {
+     "id": "m11-44",
+     "en": "Eid Mubarak",
+     "tr": "3eed mubaarak",
+     "ar": "عيد مبارك"
+    },
+    {
+     "id": "m11-45",
+     "en": "May you see it again (Eid reply)",
+     "tr": "3asaakum min 3uwwaada",
+     "ar": "عساكم من عواده",
+     "note": "The classic Gulf Eid reply."
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "title": "Telling stories",
+   "blurb": "Past events, plans and connecting ideas.",
+   "items": [
+    {
+     "id": "m12-01",
+     "en": "What happened?",
+     "tr": "shu saar?",
+     "ar": "شو صار؟"
+    },
+    {
+     "id": "m12-02",
+     "en": "Nothing happened",
+     "tr": "ma saar shay",
+     "ar": "ما صار شي"
+    },
+    {
+     "id": "m12-03",
+     "en": "It happened",
+     "tr": "saar",
+     "ar": "صار"
+    },
+    {
+     "id": "m12-04",
+     "en": "Tell me (to a man)",
+     "tr": "gul li",
+     "ar": "قل لي"
+    },
+    {
+     "id": "m12-05",
+     "en": "story / chat",
+     "tr": "saalfa",
+     "ar": "سالفة",
+     "note": "The plural sawaalif gives this app its name."
+    },
+    {
+     "id": "m12-06",
+     "en": "Long story",
+     "tr": "saalfa tweela",
+     "ar": "سالفة طويلة"
+    },
+    {
+     "id": "m12-07",
+     "en": "I came",
+     "tr": "yeet",
+     "ar": "ييت",
+     "note": "Emirati for jeet."
+    },
+    {
+     "id": "m12-08",
+     "en": "I saw",
+     "tr": "shift",
+     "ar": "شفت"
+    },
+    {
+     "id": "m12-09",
+     "en": "I ate",
+     "tr": "kalt",
+     "ar": "كلت"
+    },
+    {
+     "id": "m12-10",
+     "en": "I said",
+     "tr": "gilt",
+     "ar": "قلت"
+    },
+    {
+     "id": "m12-11",
+     "en": "He said",
+     "tr": "gaal",
+     "ar": "قال"
+    },
+    {
+     "id": "m12-12",
+     "en": "I bought",
+     "tr": "ishtarait",
+     "ar": "اشتريت"
+    },
+    {
+     "id": "m12-13",
+     "en": "I worked",
+     "tr": "ishtaghalt",
+     "ar": "اشتغلت"
+    },
+    {
+     "id": "m12-14",
+     "en": "I slept",
+     "tr": "nimt",
+     "ar": "نمت"
+    },
+    {
+     "id": "m12-15",
+     "en": "I woke up",
+     "tr": "gi3adt min in-noom",
+     "ar": "قعدت من النوم",
+     "note": "In the Gulf gi3ad means to wake up."
+    },
+    {
+     "id": "m12-16",
+     "en": "I studied",
+     "tr": "darast",
+     "ar": "درست"
+    },
+    {
+     "id": "m12-17",
+     "en": "I met (someone)",
+     "tr": "gaabalt",
+     "ar": "قابلت"
+    },
+    {
+     "id": "m12-18",
+     "en": "I called",
+     "tr": "ittasalt",
+     "ar": "اتصلت"
+    },
+    {
+     "id": "m12-19",
+     "en": "I drove",
+     "tr": "sigt",
+     "ar": "سقت"
+    },
+    {
+     "id": "m12-20",
+     "en": "I was",
+     "tr": "kint",
+     "ar": "كنت"
+    },
+    {
+     "id": "m12-21",
+     "en": "I was in Dubai",
+     "tr": "kint fi dbai",
+     "ar": "كنت في دبي"
+    },
+    {
+     "id": "m12-22",
+     "en": "I used to work in ...",
+     "tr": "kint ashtaghil fi ...",
+     "ar": "كنت أشتغل في"
+    },
+    {
+     "id": "m12-23",
+     "en": "I'll go",
+     "tr": "barou7",
+     "ar": "بروح"
+    },
+    {
+     "id": "m12-24",
+     "en": "I'll do it",
+     "tr": "basawwih",
+     "ar": "بسويه"
+    },
+    {
+     "id": "m12-25",
+     "en": "I want to go",
+     "tr": "abi arou7",
+     "ar": "أبي أروح"
+    },
+    {
+     "id": "m12-26",
+     "en": "I have to",
+     "tr": "laazim",
+     "ar": "لازم"
+    },
+    {
+     "id": "m12-27",
+     "en": "I have to go",
+     "tr": "laazim arou7",
+     "ar": "لازم أروح"
+    },
+    {
+     "id": "m12-28",
+     "en": "I'm planning to ...",
+     "tr": "ana naawi ...",
+     "ar": "أنا ناوي"
+    },
+    {
+     "id": "m12-29",
+     "en": "yesterday morning",
+     "tr": "ams is-sub7",
+     "ar": "أمس الصبح"
+    },
+    {
+     "id": "m12-30",
+     "en": "last night",
+     "tr": "il-baar7a",
+     "ar": "البارحة"
+    },
+    {
+     "id": "m12-31",
+     "en": "a week ago",
+     "tr": "gabil usboo3",
+     "ar": "قبل أسبوع"
+    },
+    {
+     "id": "m12-32",
+     "en": "before",
+     "tr": "gabil",
+     "ar": "قبل"
+    },
+    {
+     "id": "m12-33",
+     "en": "and then",
+     "tr": "w ba3dain",
+     "ar": "وبعدين"
+    },
+    {
+     "id": "m12-34",
+     "en": "because",
+     "tr": "3ashaan",
+     "ar": "عشان"
+    },
+    {
+     "id": "m12-35",
+     "en": "I mean / so",
+     "tr": "ya3ni",
+     "ar": "يعني"
+    },
+    {
+     "id": "m12-36",
+     "en": "if",
+     "tr": "law",
+     "ar": "لو"
+    },
+    {
+     "id": "m12-37",
+     "en": "when (I was ...)",
+     "tr": "lamman",
+     "ar": "لمن"
+    },
+    {
+     "id": "m12-38",
+     "en": "When I was young",
+     "tr": "lamman kint sagheer",
+     "ar": "لمن كنت صغير"
+    },
+    {
+     "id": "m12-39",
+     "en": "suddenly",
+     "tr": "fij'a",
+     "ar": "فجأة"
+    },
+    {
+     "id": "m12-40",
+     "en": "first",
+     "tr": "awwal",
+     "ar": "أول"
+    },
+    {
+     "id": "m12-41",
+     "en": "in the end",
+     "tr": "fil aakhir",
+     "ar": "في الآخر"
+    },
+    {
+     "id": "m12-42",
+     "en": "Did you understand? (to a man)",
+     "tr": "fihamt?",
+     "ar": "فهمت؟"
+    },
+    {
+     "id": "m12-43",
+     "en": "Yes, I understood",
+     "tr": "ee, fihamt",
+     "ar": "إي، فهمت"
+    },
+    {
+     "id": "m12-44",
+     "en": "I remember",
+     "tr": "atdhakkar",
+     "ar": "أتذكر"
+    },
+    {
+     "id": "m12-45",
+     "en": "year / years",
+     "tr": "sana / sanawaat",
+     "ar": "سنة، سنوات"
+    },
+    {
+     "id": "m12-46",
+     "en": "I've been in Dubai for ... years",
+     "tr": "saar li fi dbai ... sanawaat",
+     "ar": "صار لي في دبي ... سنوات"
+    },
+    {
+     "id": "m12-47",
+     "en": "next year",
+     "tr": "is-sana il-jaaya",
+     "ar": "السنة الجاية"
+    }
+   ]
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "d1",
+   "module": "m1",
+   "title": "Morning at the office",
+   "setting": "Your colleague Mariam greets you as you arrive.",
+   "lines": [
+    {
+     "who": "Mariam",
+     "voice": "f",
+     "tr": "as-salaamu 3alaikum, sabaa7 al-khair!",
+     "ar": "السلام عليكم، صباح الخير!",
+     "en": "Peace be upon you, good morning!"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "wa 3alaikum as-salaam, sabaa7 an-noor.",
+     "ar": "وعليكم السلام، صباح النور.",
+     "en": "And upon you peace, good morning."
+    },
+    {
+     "who": "Mariam",
+     "voice": "f",
+     "tr": "shlonak? shakhbaarak?",
+     "ar": "شلونك؟ شخبارك؟",
+     "en": "How are you? How are things?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "zain, al7amdillah. w inti?",
+     "ar": "زين، الحمد لله. وإنتي؟",
+     "en": "Good, thank God. And you?"
+    },
+    {
+     "who": "Mariam",
+     "voice": "f",
+     "tr": "al7amdillah. yallah, 3indana ijtimaa3 al7een.",
+     "ar": "الحمد لله. يلا، عندنا اجتماع الحين.",
+     "en": "Thank God. Come on, we have a meeting now."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ee, yallah.",
+     "ar": "إي، يلا.",
+     "en": "Yes, let's go."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What does Mariam ask you?",
+     "options": [
+      "How you are",
+      "Where you live",
+      "What time it is"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What do you both have now?",
+     "options": [
+      "Lunch",
+      "A meeting",
+      "A taxi"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "module": "m3",
+   "title": "Meeting someone new",
+   "setting": "At a business event, Noura introduces herself.",
+   "lines": [
+    {
+     "who": "Noura",
+     "voice": "f",
+     "tr": "hala wallah! shu ismak?",
+     "ar": "هلا والله! شو اسمك؟",
+     "en": "Hi there! What's your name?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ismi Pranjal. w inti?",
+     "ar": "اسمي برانجال. وإنتي؟",
+     "en": "My name is Pranjal. And you?"
+    },
+    {
+     "who": "Noura",
+     "voice": "f",
+     "tr": "ana Noura. tsharrafna. inta min wain?",
+     "ar": "أنا نورة. تشرفنا. إنت من وين؟",
+     "en": "I'm Noura. Nice to meet you. Where are you from?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ana min il-hind, bas askun fi dbai.",
+     "ar": "أنا من الهند، بس أسكن في دبي.",
+     "en": "I'm from India, but I live in Dubai."
+    },
+    {
+     "who": "Noura",
+     "voice": "f",
+     "tr": "mashallah! titkallam 3arabi?",
+     "ar": "ما شاء الله! تتكلم عربي؟",
+     "en": "Wonderful! Do you speak Arabic?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "shway shway. ana at3allam.",
+     "ar": "شوي شوي. أنا أتعلم.",
+     "en": "A little. I'm learning."
+    },
+    {
+     "who": "Noura",
+     "voice": "f",
+     "tr": "zain wayid!",
+     "ar": "زين وايد!",
+     "en": "Very good!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Where are you from, according to the conversation?",
+     "options": [
+      "Dubai",
+      "India",
+      "Iraq"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "How much Arabic do you say you speak?",
+     "options": [
+      "A little",
+      "None",
+      "Fluently"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "module": "m4",
+   "title": "Karak at the cafeteria",
+   "setting": "You order at a roadside cafeteria.",
+   "lines": [
+    {
+     "who": "Waiter",
+     "voice": "f",
+     "tr": "hala, shu tabi?",
+     "ar": "هلا، شو تبي؟",
+     "en": "Hi, what would you like?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "abi chaay karak, law sama7t.",
+     "ar": "أبي چاي كرك، لو سمحت.",
+     "en": "I'd like a karak tea, please."
+    },
+    {
+     "who": "Waiter",
+     "voice": "f",
+     "tr": "bsukkar walla bdoon?",
+     "ar": "بسكر ولا بدون؟",
+     "en": "With sugar or without?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "bdoon sukkar. w maay ba3ad.",
+     "ar": "بدون سكر. وماي بعد.",
+     "en": "Without sugar. And water too."
+    },
+    {
+     "who": "Waiter",
+     "voice": "f",
+     "tr": "tfaddal.",
+     "ar": "تفضل.",
+     "en": "Here you are."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "bkam?",
+     "ar": "بكم؟",
+     "en": "How much?"
+    },
+    {
+     "who": "Waiter",
+     "voice": "f",
+     "tr": "khams daraahim.",
+     "ar": "خمس دراهم.",
+     "en": "Five dirhams."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "mashkoor.",
+     "ar": "مشكور.",
+     "en": "Thanks."
+    }
+   ],
+   "questions": [
+    {
+     "q": "How do you want your tea?",
+     "options": [
+      "With milk",
+      "With sugar",
+      "Without sugar"
+     ],
+     "answer": 2
+    },
+    {
+     "q": "What else do you order?",
+     "options": [
+      "Water",
+      "Coffee",
+      "Food"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How much does it cost?",
+     "options": [
+      "Fifteen dirhams",
+      "Five dirhams",
+      "Fifty dirhams"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d4",
+   "module": "m2",
+   "title": "Asking the price",
+   "setting": "You like a bag at a shop in the souk.",
+   "lines": [
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "law sama7t, bkam haadha?",
+     "ar": "لو سمحت، بكم هذا؟",
+     "en": "Excuse me, how much is this?"
+    },
+    {
+     "who": "Seller",
+     "voice": "f",
+     "tr": "haadha b imyatain dirham.",
+     "ar": "هذا بميتين درهم.",
+     "en": "This is two hundred dirhams."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ghaali wayid! fi khasm?",
+     "ar": "غالي وايد! في خصم؟",
+     "en": "Too expensive! Is there a discount?"
+    },
+    {
+     "who": "Seller",
+     "voice": "f",
+     "tr": "7aggak b imya w khamseen.",
+     "ar": "حقك بمية وخمسين.",
+     "en": "For you, a hundred and fifty."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "zain, khalaas.",
+     "ar": "زين، خلاص.",
+     "en": "OK, done."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What is the first price?",
+     "options": [
+      "150 dirhams",
+      "200 dirhams",
+      "100 dirhams"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "What price do you agree on?",
+     "options": [
+      "150 dirhams",
+      "200 dirhams",
+      "50 dirhams"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "d5",
+   "module": "m4",
+   "title": "Taxi to the Marina",
+   "setting": "You get into a taxi on Sheikh Zayed Road.",
+   "lines": [
+    {
+     "who": "Driver",
+     "voice": "f",
+     "tr": "as-salaamu 3alaikum. wain trou7?",
+     "ar": "السلام عليكم. وين تروح؟",
+     "en": "Peace be upon you. Where are you going?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "wa 3alaikum as-salaam. dbai marina, law sama7t.",
+     "ar": "وعليكم السلام. دبي مارينا، لو سمحت.",
+     "en": "And upon you peace. Dubai Marina, please."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ana mista3jil shway. fi za7ma?",
+     "ar": "أنا مستعجل شوي. في زحمة؟",
+     "en": "I'm in a bit of a hurry. Is there traffic?"
+    },
+    {
+     "who": "Driver",
+     "voice": "f",
+     "tr": "la, ma fi za7ma al7een.",
+     "ar": "لا، ما في زحمة الحين.",
+     "en": "No, there's no traffic now."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "3ind il-ishaara, lif yimeen.",
+     "ar": "عند الإشارة، لف يمين.",
+     "en": "At the traffic light, turn right."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "waggif hni, law sama7t.",
+     "ar": "وقف هني، لو سمحت.",
+     "en": "Stop here, please."
+    },
+    {
+     "who": "Driver",
+     "voice": "f",
+     "tr": "tfaddal.",
+     "ar": "تفضل.",
+     "en": "There you go."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Where are you going?",
+     "options": [
+      "The airport",
+      "Deira",
+      "Dubai Marina"
+     ],
+     "answer": 2
+    },
+    {
+     "q": "Is there traffic?",
+     "options": [
+      "Yes, a lot",
+      "No",
+      "A little"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Where should the driver turn right?",
+     "options": [
+      "At the traffic light",
+      "At the roundabout",
+      "At the metro"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "d6",
+   "module": "m2",
+   "title": "Setting a meeting",
+   "setting": "A colleague wants to meet tomorrow.",
+   "lines": [
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "3indak wagt baachir?",
+     "ar": "عندك وقت باجر؟",
+     "en": "Do you have time tomorrow?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ee, is-sub7.",
+     "ar": "إي، الصبح.",
+     "en": "Yes, in the morning."
+    },
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "is-saa3a 3ashar zain?",
+     "ar": "الساعة عشر زين؟",
+     "en": "Is ten o'clock good?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "la, 3indi ijtimaa3 is-saa3a 3ashar. is-saa3a i7da3sh?",
+     "ar": "لا، عندي اجتماع الساعة عشر. الساعة إحدعش؟",
+     "en": "No, I have a meeting at ten. Eleven o'clock?"
+    },
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "zain, ittafagna. is-saa3a i7da3sh fil maktab.",
+     "ar": "زين، اتفقنا. الساعة إحدعش في المكتب.",
+     "en": "OK, agreed. Eleven o'clock at the office."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "inshallah.",
+     "ar": "إن شاء الله.",
+     "en": "God willing."
+    }
+   ],
+   "questions": [
+    {
+     "q": "When do you agree to meet?",
+     "options": [
+      "Today at ten",
+      "Tomorrow at eleven",
+      "Tomorrow at ten"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Why not ten o'clock?",
+     "options": [
+      "You have a meeting",
+      "You're tired",
+      "There's traffic"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Where will you meet?",
+     "options": [
+      "At a café",
+      "At the office",
+      "At home"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d7",
+   "module": "m5",
+   "title": "Lunch with a colleague",
+   "setting": "Your colleague Huda suggests lunch near the office.",
+   "lines": [
+    {
+     "who": "Huda",
+     "voice": "f",
+     "tr": "yallah nitghadda. shu tabi taakil?",
+     "ar": "يلا نتغدى. شو تبي تاكل؟",
+     "en": "Let's have lunch. What do you want to eat?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "abi 3aish w diyaay. w inti?",
+     "ar": "أبي عيش ودياي. وإنتي؟",
+     "en": "I'd like rice and chicken. And you?"
+    },
+    {
+     "who": "Huda",
+     "voice": "f",
+     "tr": "ana abi samach w salata.",
+     "ar": "أنا أبي سمچ وسلطة.",
+     "en": "I'd like fish and salad."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "haadha 7aar?",
+     "ar": "هذا حار؟",
+     "en": "Is this spicy?"
+    },
+    {
+     "who": "Huda",
+     "voice": "f",
+     "tr": "la, mub 7aar. bil 3aafya!",
+     "ar": "لا، مب حار. بالعافية!",
+     "en": "No, it's not spicy. Enjoy!"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "wayid lazeedh! il-7saab 3alay.",
+     "ar": "وايد لذيذ! الحساب علي.",
+     "en": "Really tasty! The bill's on me."
+    },
+    {
+     "who": "Huda",
+     "voice": "f",
+     "tr": "la, mashkoor. khallni adfa3 il-marra il-jaaya.",
+     "ar": "لا، مشكور. خلني أدفع المرة الجاية.",
+     "en": "No, thanks. Let me pay next time."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What do you order?",
+     "options": [
+      "Fish and salad",
+      "Rice and chicken",
+      "Bread and dates"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Is the food spicy?",
+     "options": [
+      "Yes, very",
+      "No",
+      "A little"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Who says they'll pay this time?",
+     "options": [
+      "You",
+      "Huda",
+      "Nobody"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "d8",
+   "module": "m5",
+   "title": "Takeaway order",
+   "setting": "You stop at a cafeteria on the way home.",
+   "lines": [
+    {
+     "who": "Worker",
+     "voice": "f",
+     "tr": "hala! hni walla safari?",
+     "ar": "هلا! هني ولا سفري؟",
+     "en": "Hi! For here or takeaway?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "safari, law sama7t. abi khubz w 3aseer.",
+     "ar": "سفري، لو سمحت. أبي خبز وعصير.",
+     "en": "Takeaway, please. I'd like bread and juice."
+    },
+    {
+     "who": "Worker",
+     "voice": "f",
+     "tr": "3aseer baarid?",
+     "ar": "عصير بارد؟",
+     "en": "Cold juice?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ee, baarid. w zeed shway khubz.",
+     "ar": "إي، بارد. وزيد شوي خبز.",
+     "en": "Yes, cold. And add a bit more bread."
+    },
+    {
+     "who": "Worker",
+     "voice": "f",
+     "tr": "zain. 3ashreen dirham.",
+     "ar": "زين. عشرين درهم.",
+     "en": "OK. Twenty dirhams."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "tfaddal. khall il-baagi.",
+     "ar": "تفضل. خل الباقي.",
+     "en": "Here you go. Keep the change."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Is the order for here or takeaway?",
+     "options": [
+      "For here",
+      "Takeaway",
+      "Delivery"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "How much is it?",
+     "options": [
+      "Twelve dirhams",
+      "Twenty dirhams",
+      "Two hundred dirhams"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d9",
+   "module": "m6",
+   "title": "Perfume at the souk",
+   "setting": "You're looking for oud at a perfume shop in Deira.",
+   "lines": [
+    {
+     "who": "Seller",
+     "voice": "f",
+     "tr": "ahlan! shu tabi?",
+     "ar": "أهلا! شو تبي؟",
+     "en": "Welcome! What are you looking for?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "abi dihn 3ood. agdar ashimmah?",
+     "ar": "أبي دهن عود. أقدر أشمه؟",
+     "en": "I'd like oud oil. Can I smell it?"
+    },
+    {
+     "who": "Seller",
+     "voice": "f",
+     "tr": "akeed, tfaddal. haadha yideed.",
+     "ar": "أكيد، تفضل. هذا يديد.",
+     "en": "Of course, go ahead. This one is new."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "7ilu wayid. bkam?",
+     "ar": "حلو وايد. بكم؟",
+     "en": "Very nice. How much?"
+    },
+    {
+     "who": "Seller",
+     "voice": "f",
+     "tr": "khams imya dirham.",
+     "ar": "خمس مية درهم.",
+     "en": "Five hundred dirhams."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ghaali wayid! aakhir si3r?",
+     "ar": "غالي وايد! آخر سعر؟",
+     "en": "Too expensive! What's your last price?"
+    },
+    {
+     "who": "Seller",
+     "voice": "f",
+     "tr": "7aggak arba3 imya, w bukhoor hadiyya.",
+     "ar": "حقك أربع مية، وبخور هدية.",
+     "en": "For you, four hundred, and incense as a gift."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "zain, baakhdhah.",
+     "ar": "زين، باخذه.",
+     "en": "OK, I'll take it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What are you buying?",
+     "options": [
+      "Gold",
+      "Oud oil",
+      "Clothes"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "What is the first price?",
+     "options": [
+      "400 dirhams",
+      "500 dirhams",
+      "50 dirhams"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "What do you get as a gift?",
+     "options": [
+      "Incense",
+      "A bag",
+      "Dates"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "d10",
+   "module": "m6",
+   "title": "Exchanging a shirt",
+   "setting": "A shirt you bought doesn't fit, so you go back to the mall.",
+   "lines": [
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "law sama7t, abi abaddil haadha. mub 3ala magaasi.",
+     "ar": "لو سمحت، أبي أبدل هذا. مب على مقاسي.",
+     "en": "Excuse me, I want to exchange this. It doesn't fit me."
+    },
+    {
+     "who": "Assistant",
+     "voice": "f",
+     "tr": "chibeer walla sagheer?",
+     "ar": "چبير ولا صغير؟",
+     "en": "Too big or too small?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "chibeer wayid. 3indkum asghar?",
+     "ar": "چبير وايد. عندكم أصغر؟",
+     "en": "Much too big. Do you have a smaller one?"
+    },
+    {
+     "who": "Assistant",
+     "voice": "f",
+     "tr": "ee, bas bloon azrag. ma fi abyadh.",
+     "ar": "إي، بس بلون أزرق. ما في أبيض.",
+     "en": "Yes, but in blue. There's no white."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ma yikhaalif, azrag zain.",
+     "ar": "ما يخالف، أزرق زين.",
+     "en": "No problem, blue is fine."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What's wrong with the shirt?",
+     "options": [
+      "It's broken",
+      "It's too big",
+      "It's too small"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "What colour is available?",
+     "options": [
+      "White",
+      "Blue",
+      "Black"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d11",
+   "module": "m7",
+   "title": "Running late",
+   "setting": "Your friend Shamma calls while you're stuck in traffic.",
+   "lines": [
+    {
+     "who": "Shamma",
+     "voice": "f",
+     "tr": "alo? wainak?",
+     "ar": "ألو؟ وينك؟",
+     "en": "Hello? Where are you?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ana fi it-tareeg. fi za7ma wayid.",
+     "ar": "أنا في الطريق. في زحمة وايد.",
+     "en": "I'm on my way. There's a lot of traffic."
+    },
+    {
+     "who": "Shamma",
+     "voice": "f",
+     "tr": "mita tooSal?",
+     "ar": "متى توصل؟",
+     "en": "When will you arrive?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ba3d 3ashar dagaayig. ta'akhkhart, aasif.",
+     "ar": "بعد عشر دقايق. تأخرت، آسف.",
+     "en": "In ten minutes. I'm late, sorry."
+    },
+    {
+     "who": "Shamma",
+     "voice": "f",
+     "tr": "ma yikhaalif. tarrish li il-lokeishan.",
+     "ar": "ما يخالف. طرش لي اللوكيشن.",
+     "en": "No problem. Send me your location."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "zain, batarrishah al7een.",
+     "ar": "زين، بطرشه الحين.",
+     "en": "OK, I'll send it now."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Why are you late?",
+     "options": [
+      "You forgot",
+      "Traffic",
+      "Your battery died"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "When will you arrive?",
+     "options": [
+      "In ten minutes",
+      "In an hour",
+      "Tomorrow"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does Shamma ask you to send?",
+     "options": [
+      "A message",
+      "Your location",
+      "A photo"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d12",
+   "module": "m7",
+   "title": "Weekend plans",
+   "setting": "Arranging to meet a friend at the weekend.",
+   "lines": [
+    {
+     "who": "Friend",
+     "voice": "f",
+     "tr": "inta faadhi il-wiikend?",
+     "ar": "إنت فاضي الويكند؟",
+     "en": "Are you free at the weekend?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "yimkin. il-yoom ma 3indi wagt, bas baachir faadhi.",
+     "ar": "يمكن. اليوم ما عندي وقت، بس باجر فاضي.",
+     "en": "Maybe. Today I don't have time, but tomorrow I'm free."
+    },
+    {
+     "who": "Friend",
+     "voice": "f",
+     "tr": "zain! khalna nitlaaga baachir.",
+     "ar": "زين! خلنا نتلاقى باجر.",
+     "en": "Great! Let's meet tomorrow."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "wain nitlaaga? w ay saa3a?",
+     "ar": "وين نتلاقى؟ وأي ساعة؟",
+     "en": "Where shall we meet? And what time?"
+    },
+    {
+     "who": "Friend",
+     "voice": "f",
+     "tr": "fil mool, is-saa3a sab3.",
+     "ar": "في المول، الساعة سبع.",
+     "en": "At the mall, at seven."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "akeed. ashoofich baachir!",
+     "ar": "أكيد. أشوفچ باجر!",
+     "en": "Sure. See you tomorrow!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "When are you free?",
+     "options": [
+      "Today",
+      "Tomorrow",
+      "Not at all"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Where will you meet?",
+     "options": [
+      "At the mall",
+      "At the beach",
+      "At the office"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "At what time?",
+     "options": [
+      "Six",
+      "Seven",
+      "Eight"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d13",
+   "module": "m8",
+   "title": "Project check-in",
+   "setting": "A quick call with your manager about a report.",
+   "lines": [
+    {
+     "who": "Manager",
+     "voice": "f",
+     "tr": "mita yikhallis it-tagreer?",
+     "ar": "متى يخلص التقرير؟",
+     "en": "When will the report be finished?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "khallast nuss. batarrishah baachir.",
+     "ar": "خلصت نص. بطرشه باجر.",
+     "en": "I've finished half. I'll send it tomorrow."
+    },
+    {
+     "who": "Manager",
+     "voice": "f",
+     "tr": "haadha musta3jal. il-3ameel yabaah il-yoom.",
+     "ar": "هذا مستعجل. العميل يباه اليوم.",
+     "en": "It's urgent. The client wants it today."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "zain, khal ashoof w arudd 3aleech.",
+     "ar": "زين، خل أشوف وأرد عليچ.",
+     "en": "OK, let me check and get back to you."
+    },
+    {
+     "who": "Manager",
+     "voice": "f",
+     "tr": "mashkoor 3ala jahdak.",
+     "ar": "مشكور على جهدك.",
+     "en": "Thanks for your effort."
+    }
+   ],
+   "questions": [
+    {
+     "q": "How much of the report is done?",
+     "options": [
+      "All of it",
+      "Half",
+      "None"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Who wants the report today?",
+     "options": [
+      "The client",
+      "The team",
+      "The supplier"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "d14",
+   "module": "m8",
+   "title": "Signing the contract",
+   "setting": "A meeting with a supplier to close a deal.",
+   "lines": [
+    {
+     "who": "Supplier",
+     "voice": "f",
+     "tr": "haadha il-3agd. shu raayak?",
+     "ar": "هذا العقد. شو رأيك؟",
+     "en": "Here's the contract. What do you think?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "zain, bas fi mushkila fil taklifa.",
+     "ar": "زين، بس في مشكلة في التكلفة.",
+     "en": "Good, but there's a problem with the cost."
+    },
+    {
+     "who": "Supplier",
+     "voice": "f",
+     "tr": "nagdar nnazzil shway.",
+     "ar": "نقدر ننزل شوي.",
+     "en": "We can go down a little."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "fikra zaina. ana mittafig.",
+     "ar": "فكرة زينة. أنا متفق.",
+     "en": "Good idea. I agree."
+    },
+    {
+     "who": "Supplier",
+     "voice": "f",
+     "tr": "zain, waggi3 hni law sama7t. mabrook!",
+     "ar": "زين، وقع هني لو سمحت. مبروك!",
+     "en": "OK, sign here please. Congratulations!"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "allah ybaarik feek. bit-tawfeeg!",
+     "ar": "الله يبارك فيك. بالتوفيق!",
+     "en": "Thank you. Good luck!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "What's the problem?",
+     "options": [
+      "The deadline",
+      "The cost",
+      "The team"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "What do you do at the end?",
+     "options": [
+      "Cancel",
+      "Sign",
+      "Postpone"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d15",
+   "module": "m9",
+   "title": "The AC is broken",
+   "setting": "You call building maintenance on a hot afternoon.",
+   "lines": [
+    {
+     "who": "Maintenance",
+     "voice": "f",
+     "tr": "alo, siyaana. tfaddal.",
+     "ar": "ألو، صيانة. تفضل.",
+     "en": "Hello, maintenance. Go ahead."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "il-mukayyif kharbaan, w il-jaw 7aar wayid.",
+     "ar": "المكيف خربان، والجو حار وايد.",
+     "en": "The AC is broken, and it's very hot."
+    },
+    {
+     "who": "Maintenance",
+     "voice": "f",
+     "tr": "ay taabig? w ragm ish-shagga?",
+     "ar": "أي طابق؟ ورقم الشقة؟",
+     "en": "Which floor? And the apartment number?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "it-taabig il-khaamis, shagga khams imya w waa7id.",
+     "ar": "الطابق الخامس، شقة خمس مية وواحد.",
+     "en": "The fifth floor, apartment 501."
+    },
+    {
+     "who": "Maintenance",
+     "voice": "f",
+     "tr": "zain, yaay ba3d nuss saa3a.",
+     "ar": "زين، ياي بعد نص ساعة.",
+     "en": "OK, I'm coming in half an hour."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "mashkoor. il-baab maftoo7.",
+     "ar": "مشكور. الباب مفتوح.",
+     "en": "Thanks. The door is open."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What's broken?",
+     "options": [
+      "The AC",
+      "The lift",
+      "The light"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which apartment is it?",
+     "options": [
+      "105",
+      "501",
+      "15"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "When is maintenance coming?",
+     "options": [
+      "Tomorrow",
+      "In half an hour",
+      "In ten minutes"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d16",
+   "module": "m9",
+   "title": "A delivery at the door",
+   "setting": "A courier calls from downstairs.",
+   "lines": [
+    {
+     "who": "Courier",
+     "voice": "f",
+     "tr": "as-salaamu 3alaikum. 3indi shi7na lik.",
+     "ar": "السلام عليكم. عندي شحنة لك.",
+     "en": "Peace be upon you. I have a parcel for you."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "wa 3alaikum as-salaam. ana foog, itla3.",
+     "ar": "وعليكم السلام. أنا فوق، اطلع.",
+     "en": "And upon you peace. I'm upstairs, come up."
+    },
+    {
+     "who": "Courier",
+     "voice": "f",
+     "tr": "il-mas3ad kharbaan.",
+     "ar": "المصعد خربان.",
+     "en": "The lift is broken."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ma3laish. khallah 3ind il-7aaris ta7t.",
+     "ar": "معليش. خله عند الحارس تحت.",
+     "en": "Sorry about that. Leave it with the guard downstairs."
+    },
+    {
+     "who": "Courier",
+     "voice": "f",
+     "tr": "zain, ma fi mushkila.",
+     "ar": "زين، ما في مشكلة.",
+     "en": "OK, no problem."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Why can't the courier come up easily?",
+     "options": [
+      "The lift is broken",
+      "The door is closed",
+      "There's traffic"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Where should he leave the parcel?",
+     "options": [
+      "At your door",
+      "With the guard downstairs",
+      "At the office"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d17",
+   "module": "m10",
+   "title": "At the pharmacy",
+   "setting": "You have a headache and a fever.",
+   "lines": [
+    {
+     "who": "Pharmacist",
+     "voice": "f",
+     "tr": "hala, shu fik?",
+     "ar": "هلا، شو فيك؟",
+     "en": "Hi, what's wrong?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "raasi y3awwirni, w 3indi 7umma.",
+     "ar": "راسي يعورني، وعندي حمى.",
+     "en": "My head hurts, and I have a fever."
+    },
+    {
+     "who": "Pharmacist",
+     "voice": "f",
+     "tr": "3indak 7assaasiyya min ay dawa?",
+     "ar": "عندك حساسية من أي دوا؟",
+     "en": "Are you allergic to any medicine?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "la, ma 3indi.",
+     "ar": "لا، ما عندي.",
+     "en": "No, I'm not."
+    },
+    {
+     "who": "Pharmacist",
+     "voice": "f",
+     "tr": "haadhi 7boob. marratain fil yoom, ba3d il-akil.",
+     "ar": "هذي حبوب. مرتين في اليوم، بعد الأكل.",
+     "en": "These are pills. Twice a day, after food."
+    },
+    {
+     "who": "Pharmacist",
+     "voice": "f",
+     "tr": "w ti7taaj raa7a. salaamtak!",
+     "ar": "وتحتاج راحة. سلامتك!",
+     "en": "And you need rest. Get well soon!"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "allah ysallmich.",
+     "ar": "الله يسلمچ.",
+     "en": "Thank you (God keep you safe)."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What are your symptoms?",
+     "options": [
+      "Stomach ache and cough",
+      "Headache and fever",
+      "Back pain"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "How often should you take the pills?",
+     "options": [
+      "Once a day",
+      "Twice a day",
+      "Three times a day"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "When should you take them?",
+     "options": [
+      "Before food",
+      "After food",
+      "At night only"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d18",
+   "module": "m10",
+   "title": "A colleague isn't well",
+   "setting": "Your colleague Aisha looks pale at the office.",
+   "lines": [
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "inti zaina? shakhbaarich?",
+     "ar": "إنتي زينة؟ شخبارچ؟",
+     "en": "Are you OK? How are things?"
+    },
+    {
+     "who": "Aisha",
+     "voice": "f",
+     "tr": "la, ana mareedha. batni y3awwirni.",
+     "ar": "لا، أنا مريضة. بطني يعورني.",
+     "en": "No, I'm sick. My stomach hurts."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ti7taajeen daktoor? fi 3iyaada gareeb.",
+     "ar": "تحتاجين دكتور؟ في عيادة قريب.",
+     "en": "Do you need a doctor? There's a clinic nearby."
+    },
+    {
+     "who": "Aisha",
+     "voice": "f",
+     "tr": "la, 3aadi. barou7 il-bait w artaa7.",
+     "ar": "لا، عادي. بروح البيت وأرتاح.",
+     "en": "No, it's fine. I'll go home and rest."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "zain. salaamtich!",
+     "ar": "زين. سلامتچ!",
+     "en": "OK. Get well soon!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "What's wrong with Aisha?",
+     "options": [
+      "Headache",
+      "Stomach ache",
+      "Toothache"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "What does she decide to do?",
+     "options": [
+      "Go to the clinic",
+      "Go home and rest",
+      "Keep working"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d19",
+   "module": "m11",
+   "title": "Monday small talk",
+   "setting": "Coffee with a colleague after the weekend.",
+   "lines": [
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "shlon kaan il-wiikend? shu sawwait?",
+     "ar": "شلون كان الويكند؟ شو سويت؟",
+     "en": "How was the weekend? What did you do?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "kaan zain. ri7t il-ba7ar ma3a rab3i.",
+     "ar": "كان زين. رحت البحر مع ربعي.",
+     "en": "It was good. I went to the beach with friends."
+    },
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "sidj? il-jaw 7aar wayid!",
+     "ar": "صدج؟ الجو حار وايد!",
+     "en": "Really? It's so hot!"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ee, w ir-rtooba wayid. bas kaan 7ilu.",
+     "ar": "إي، والرطوبة وايد. بس كان حلو.",
+     "en": "Yes, and very humid. But it was nice."
+    },
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "ana ma sawwait shay. kint ta3baana.",
+     "ar": "أنا ما سويت شي. كنت تعبانة.",
+     "en": "I didn't do anything. I was tired."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Where did you go?",
+     "options": [
+      "The desert",
+      "The beach",
+      "The mall"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "What did your colleague do?",
+     "options": [
+      "Nothing",
+      "Travelled",
+      "Went to the gym"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "d20",
+   "module": "m11",
+   "title": "Eid greetings",
+   "setting": "You meet your neighbour on the first day of Eid.",
+   "lines": [
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "3eed mubaarak!",
+     "ar": "عيد مبارك!",
+     "en": "Eid Mubarak!"
+    },
+    {
+     "who": "Neighbour",
+     "voice": "f",
+     "tr": "3asaakum min 3uwwaada! min zamaan, wainak?",
+     "ar": "عساكم من عواده! من زمان، وينك؟",
+     "en": "May you see it again! It's been ages, where have you been?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "kint msaafir. rija3t il-baar7a.",
+     "ar": "كنت مسافر. رجعت البارحة.",
+     "en": "I was travelling. I came back last night."
+    },
+    {
+     "who": "Neighbour",
+     "voice": "f",
+     "tr": "7ayyaak allah! tfaddal, gahwa?",
+     "ar": "حياك الله! تفضل، قهوة؟",
+     "en": "Welcome! Please, some coffee?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "mashkoor, 3ala raasi.",
+     "ar": "مشكور، على راسي.",
+     "en": "Thank you, with pleasure."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Where were you?",
+     "options": [
+      "At work",
+      "Travelling",
+      "Sick at home"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "When did you come back?",
+     "options": [
+      "Last night",
+      "A week ago",
+      "This morning"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does your neighbour offer?",
+     "options": [
+      "Dates",
+      "Coffee",
+      "Lunch"
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "d21",
+   "module": "m12",
+   "title": "What happened yesterday?",
+   "setting": "A friend wants to know why you missed dinner.",
+   "lines": [
+    {
+     "who": "Friend",
+     "voice": "f",
+     "tr": "il-baar7a ma yeet! shu saar?",
+     "ar": "البارحة ما ييت! شو صار؟",
+     "en": "You didn't come last night! What happened?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "saalfa tweela. awwal, il-batri khalas.",
+     "ar": "سالفة طويلة. أول، البطري خلص.",
+     "en": "Long story. First, my battery died."
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "w ba3dain, fij'a, il-mukayyif kharab fil sayyaara.",
+     "ar": "وبعدين، فجأة، المكيف خرب في السيارة.",
+     "en": "And then, suddenly, the AC broke in the car."
+    },
+    {
+     "who": "Friend",
+     "voice": "f",
+     "tr": "sidj? w ba3dain?",
+     "ar": "صدج؟ وبعدين؟",
+     "en": "Really? And then?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "fil aakhir ri7t il-bait w nimt, 3ashaan kint ta3baan.",
+     "ar": "في الآخر رحت البيت ونمت، عشان كنت تعبان.",
+     "en": "In the end I went home and slept, because I was tired."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What happened first?",
+     "options": [
+      "Your battery died",
+      "You got lost",
+      "You got sick"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What broke in the car?",
+     "options": [
+      "The door",
+      "The AC",
+      "The light"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "Why did you go to sleep?",
+     "options": [
+      "You were tired",
+      "You were bored",
+      "It was late"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "d22",
+   "module": "m12",
+   "title": "Plans for next year",
+   "setting": "Chatting with a colleague about the future.",
+   "lines": [
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "saar lak wayid fi dbai?",
+     "ar": "صار لك وايد في دبي؟",
+     "en": "Have you been in Dubai long?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ee, saar li fi dbai sanawaat.",
+     "ar": "إي، صار لي في دبي سنوات.",
+     "en": "Yes, I've been in Dubai for years."
+    },
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "w shu naawi is-sana il-jaaya?",
+     "ar": "وشو ناوي السنة الجاية؟",
+     "en": "And what are you planning next year?"
+    },
+    {
+     "who": "You",
+     "voice": "m",
+     "tr": "ana naawi at3allam 3arabi zain, 3ashaan atkallam ma3a il-3umala.",
+     "ar": "أنا ناوي أتعلم عربي زين، عشان أتكلم مع العملاء.",
+     "en": "I'm planning to learn Arabic well, so I can talk with clients."
+    },
+    {
+     "who": "Colleague",
+     "voice": "f",
+     "tr": "mashallah! bit-tawfeeg.",
+     "ar": "ما شاء الله! بالتوفيق.",
+     "en": "Wonderful! Good luck."
+    }
+   ],
+   "questions": [
+    {
+     "q": "How long have you been in Dubai?",
+     "options": [
+      "A few months",
+      "Years",
+      "One week"
+     ],
+     "answer": 1
+    },
+    {
+     "q": "What are you planning?",
+     "options": [
+      "To travel",
+      "To learn Arabic well",
+      "To change jobs"
+     ],
+     "answer": 1
+    }
+   ]
+  }
+ ],
+ "milestones": [
+  {
+   "id": "m1",
+   "name": "Survival",
+   "level": "CEFR A1",
+   "hours": 140,
+   "hoursLow": 100,
+   "hoursHigh": 180,
+   "words": 500,
+   "listen": 40,
+   "speak": 10,
+   "cando": [
+    "Greet people and introduce yourself",
+    "Handle numbers and prices",
+    "Order food and drinks",
+    "Give a taxi driver directions",
+    "Understand slow, clear speech on these topics"
+   ]
+  },
+  {
+   "id": "m2",
+   "name": "Basic conversation",
+   "level": "CEFR A2",
+   "hours": 350,
+   "hoursLow": 250,
+   "hoursHigh": 450,
+   "words": 1350,
+   "listen": 120,
+   "speak": 40,
+   "cando": [
+    "Handle routine exchanges at shops, cafés and work",
+    "Ask and answer follow-up questions about family, work and home",
+    "Catch the main point of short, clear messages",
+    "Keep a short social chat going with help"
+   ]
+  },
+  {
+   "id": "m3",
+   "name": "Everyday conversation",
+   "level": "CEFR B1",
+   "hours": 700,
+   "hoursLow": 550,
+   "hoursHigh": 850,
+   "words": 2750,
+   "listen": 280,
+   "speak": 100,
+   "cando": [
+    "Join a conversation unprepared on familiar topics",
+    "Follow clear speech at near-normal speed",
+    "Talk about past events and future plans",
+    "Deal with most everyday situations in Arabic"
+   ]
+  },
+  {
+   "id": "m4",
+   "name": "Confident",
+   "level": "CEFR B2",
+   "hours": 1100,
+   "hoursLow": 950,
+   "hoursHigh": 1300,
+   "words": 4000,
+   "listen": 450,
+   "speak": 170,
+   "cando": [
+    "Sustain longer conversations, including about work",
+    "Follow group conversations with some gaps"
+   ]
+  }
+ ]
 }
