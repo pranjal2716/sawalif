@@ -26,6 +26,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,woff2,png,svg,json}'],
+        // course and audio lists always try the network first so new lessons show up straight away
+        globIgnores: ['**/content/course.json', '**/audio/index.json'],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.includes('/audio/') && url.pathname.endsWith('.mp3'),
